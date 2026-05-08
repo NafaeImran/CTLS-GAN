@@ -1,0 +1,2664 @@
+
+============================================================
+ Test 1  - Non-iid | Strategy: FedAvg | Mode: non-iid
+============================================================
+  [Client 0]: 7505 samples
+  [Client 1]: 3766 samples
+  [Client 2]: 2587 samples
+  [Client 3]: 5760 samples
+  [Client 4]: 5691 samples
+  [Client 5]: 7494 samples
+  [Client 6]: 2628 samples
+  [Client 7]: 4624 samples
+  [Client 8]: 5996 samples
+  [Client 9]: 3949 samples
+  [FedAvg] Round 1 — Acc: 0.3026 | Loss: 2.1483
+  [FedAvg] Round 2 — Acc: 0.4195 | Loss: 1.6619
+  [FedAvg] Round 3 — Acc: 0.4522 | Loss: 1.5136
+  [FedAvg] Round 4 — Acc: 0.4873 | Loss: 1.4121
+  [FedAvg] Round 5 — Acc: 0.5139 | Loss: 1.3466
+  [FedAvg] Round 6 — Acc: 0.5308 | Loss: 1.2898
+  [FedAvg] Round 7 — Acc: 0.5484 | Loss: 1.2403
+  [FedAvg] Round 8 — Acc: 0.5692 | Loss: 1.1851
+  [FedAvg] Round 9 — Acc: 0.5877 | Loss: 1.1396
+  [FedAvg] Round 10 — Acc: 0.6010 | Loss: 1.1041
+  [FedAvg] Round 11 — Acc: 0.6113 | Loss: 1.0749
+  [FedAvg] Round 12 — Acc: 0.6285 | Loss: 1.0319
+  [FedAvg] Round 13 — Acc: 0.6351 | Loss: 1.0150
+  [FedAvg] Round 14 — Acc: 0.6464 | Loss: 0.9851
+  [FedAvg] Round 15 — Acc: 0.6568 | Loss: 0.9547
+  [FedAvg] Round 16 — Acc: 0.6632 | Loss: 0.9374
+  [FedAvg] Round 17 — Acc: 0.6704 | Loss: 0.9226
+  [FedAvg] Round 18 — Acc: 0.6781 | Loss: 0.9047
+  [FedAvg] Round 19 — Acc: 0.6850 | Loss: 0.8862
+  [FedAvg] Round 20 — Acc: 0.6898 | Loss: 0.8726
+  [FedAvg] Round 21 — Acc: 0.6911 | Loss: 0.8697
+  [FedAvg] Round 22 — Acc: 0.6949 | Loss: 0.8630
+  [FedAvg] Round 23 — Acc: 0.6982 | Loss: 0.8544
+  [FedAvg] Round 24 — Acc: 0.7032 | Loss: 0.8400
+  [FedAvg] Round 25 — Acc: 0.7069 | Loss: 0.8432
+  [FedAvg] Round 26 — Acc: 0.7091 | Loss: 0.8364
+  [FedAvg] Round 27 — Acc: 0.7109 | Loss: 0.8386
+  [FedAvg] Round 28 — Acc: 0.7145 | Loss: 0.8232
+  [FedAvg] Round 29 — Acc: 0.7176 | Loss: 0.8288
+  [FedAvg] Round 30 — Acc: 0.7188 | Loss: 0.8262
+  [FedAvg] Round 31 — Acc: 0.7185 | Loss: 0.8308
+  [FedAvg] Round 32 — Acc: 0.7190 | Loss: 0.8325
+  [FedAvg] Round 33 — Acc: 0.7203 | Loss: 0.8318
+  [FedAvg] Round 34 — Acc: 0.7228 | Loss: 0.8377
+  [FedAvg] Round 35 — Acc: 0.7240 | Loss: 0.8321
+  [FedAvg] Round 36 — Acc: 0.7259 | Loss: 0.8484
+  [FedAvg] Round 37 — Acc: 0.7238 | Loss: 0.8503
+  [FedAvg] Round 38 — Acc: 0.7284 | Loss: 0.8554
+  [FedAvg] Round 39 — Acc: 0.7272 | Loss: 0.8655
+  [FedAvg] Round 40 — Acc: 0.7280 | Loss: 0.8684
+  [FedAvg] Round 41 — Acc: 0.7287 | Loss: 0.8825
+  [FedAvg] Round 42 — Acc: 0.7280 | Loss: 0.8964
+  [FedAvg] Round 43 — Acc: 0.7285 | Loss: 0.8883
+  [FedAvg] Round 44 — Acc: 0.7311 | Loss: 0.8944
+  [FedAvg] Round 45 — Acc: 0.7305 | Loss: 0.9069
+  [FedAvg] Round 46 — Acc: 0.7279 | Loss: 0.9197
+  [FedAvg] Round 47 — Acc: 0.7303 | Loss: 0.9373
+  [FedAvg] Round 48 — Acc: 0.7304 | Loss: 0.9345
+  [FedAvg] Round 49 — Acc: 0.7297 | Loss: 0.9477
+  [FedAvg] Round 50 — Acc: 0.7299 | Loss: 0.9661
+
+============================================================
+ Test 1  - Non-iid | Strategy: FedCC | Mode: non-iid
+============================================================
+  [Client 0]: 7505 samples
+  [Client 1]: 3766 samples
+  [Client 2]: 2587 samples
+  [Client 3]: 5760 samples
+  [Client 4]: 5691 samples
+  [Client 5]: 7494 samples
+  [Client 6]: 2628 samples
+  [Client 7]: 4624 samples
+  [Client 8]: 5996 samples
+  [Client 9]: 3949 samples
+
+  [FedCC] Round 1 — CKA scores per client:
+    Client 0: 0.4456
+    Client 1: 0.5715
+    Client 2: 0.5269
+    Client 3: 0.5003
+    Client 4: 0.5522
+    Client 5: 0.4469
+    Client 6: 0.6360
+    Client 7: 0.4577
+    Client 8: 0.4739
+    Client 9: 0.5484
+  [FedCC] Cluster sizes: 5 (label 0) | 5 (label 1)  →  trusted = label 0
+    Client 0 | CKA=0.4456 | TRUSTED
+    Client 3 | CKA=0.5003 | TRUSTED
+    Client 5 | CKA=0.4469 | TRUSTED
+    Client 7 | CKA=0.4577 | TRUSTED
+    Client 8 | CKA=0.4739 | TRUSTED
+    Client 1 | CKA=0.5715 | FILTERED
+    Client 2 | CKA=0.5269 | FILTERED
+    Client 4 | CKA=0.5522 | FILTERED
+    Client 6 | CKA=0.6360 | FILTERED
+    Client 9 | CKA=0.5484 | FILTERED
+  [FedCC] Round 1 — 5/10 clients trusted
+  [FedCC] Round 1 — Acc: 0.2200 | Loss: 2.1755
+
+  [FedCC] Round 2 — CKA scores per client:
+    Client 0: 0.6967
+    Client 1: 0.7605
+    Client 2: 0.7398
+    Client 3: 0.6914
+    Client 4: 0.7278
+    Client 5: 0.6431
+    Client 6: 0.7573
+    Client 7: 0.7403
+    Client 8: 0.7409
+    Client 9: 0.7536
+  [FedCC] Cluster sizes: 3 (label 0) | 7 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.7605 | TRUSTED
+    Client 2 | CKA=0.7398 | TRUSTED
+    Client 4 | CKA=0.7278 | TRUSTED
+    Client 6 | CKA=0.7573 | TRUSTED
+    Client 7 | CKA=0.7403 | TRUSTED
+    Client 8 | CKA=0.7409 | TRUSTED
+    Client 9 | CKA=0.7536 | TRUSTED
+    Client 0 | CKA=0.6967 | FILTERED
+    Client 3 | CKA=0.6914 | FILTERED
+    Client 5 | CKA=0.6431 | FILTERED
+  [FedCC] Round 2 — 7/10 clients trusted
+  [FedCC] Round 2 — Acc: 0.3403 | Loss: 1.7745
+
+  [FedCC] Round 3 — CKA scores per client:
+    Client 0: 0.7754
+    Client 1: 0.8985
+    Client 2: 0.8922
+    Client 3: 0.8219
+    Client 4: 0.8846
+    Client 5: 0.7115
+    Client 6: 0.8733
+    Client 7: 0.8943
+    Client 8: 0.8599
+    Client 9: 0.8831
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.8985 | TRUSTED
+    Client 2 | CKA=0.8922 | TRUSTED
+    Client 3 | CKA=0.8219 | TRUSTED
+    Client 4 | CKA=0.8846 | TRUSTED
+    Client 6 | CKA=0.8733 | TRUSTED
+    Client 7 | CKA=0.8943 | TRUSTED
+    Client 8 | CKA=0.8599 | TRUSTED
+    Client 9 | CKA=0.8831 | TRUSTED
+    Client 0 | CKA=0.7754 | FILTERED
+    Client 5 | CKA=0.7115 | FILTERED
+  [FedCC] Round 3 — 8/10 clients trusted
+  [FedCC] Round 3 — Acc: 0.3906 | Loss: 1.6000
+
+  [FedCC] Round 4 — CKA scores per client:
+    Client 0: 0.8497
+    Client 1: 0.9368
+    Client 2: 0.9435
+    Client 3: 0.9062
+    Client 4: 0.9300
+    Client 5: 0.8003
+    Client 6: 0.9079
+    Client 7: 0.9190
+    Client 8: 0.9084
+    Client 9: 0.9402
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9368 | TRUSTED
+    Client 2 | CKA=0.9435 | TRUSTED
+    Client 3 | CKA=0.9062 | TRUSTED
+    Client 4 | CKA=0.9300 | TRUSTED
+    Client 6 | CKA=0.9079 | TRUSTED
+    Client 7 | CKA=0.9190 | TRUSTED
+    Client 8 | CKA=0.9084 | TRUSTED
+    Client 9 | CKA=0.9402 | TRUSTED
+    Client 0 | CKA=0.8497 | FILTERED
+    Client 5 | CKA=0.8003 | FILTERED
+  [FedCC] Round 4 — 8/10 clients trusted
+  [FedCC] Round 4 — Acc: 0.4478 | Loss: 1.4785
+
+  [FedCC] Round 5 — CKA scores per client:
+    Client 0: 0.8865
+    Client 1: 0.9618
+    Client 2: 0.9559
+    Client 3: 0.9423
+    Client 4: 0.9488
+    Client 5: 0.8586
+    Client 6: 0.9428
+    Client 7: 0.9389
+    Client 8: 0.9310
+    Client 9: 0.9558
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9618 | TRUSTED
+    Client 2 | CKA=0.9559 | TRUSTED
+    Client 3 | CKA=0.9423 | TRUSTED
+    Client 4 | CKA=0.9488 | TRUSTED
+    Client 6 | CKA=0.9428 | TRUSTED
+    Client 7 | CKA=0.9389 | TRUSTED
+    Client 8 | CKA=0.9310 | TRUSTED
+    Client 9 | CKA=0.9558 | TRUSTED
+    Client 0 | CKA=0.8865 | FILTERED
+    Client 5 | CKA=0.8586 | FILTERED
+  [FedCC] Round 5 — 8/10 clients trusted
+  [FedCC] Round 5 — Acc: 0.4730 | Loss: 1.4247
+
+  [FedCC] Round 6 — CKA scores per client:
+    Client 0: 0.9085
+    Client 1: 0.9673
+    Client 2: 0.9737
+    Client 3: 0.9539
+    Client 4: 0.9610
+    Client 5: 0.8836
+    Client 6: 0.9428
+    Client 7: 0.9526
+    Client 8: 0.9521
+    Client 9: 0.9694
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9673 | TRUSTED
+    Client 2 | CKA=0.9737 | TRUSTED
+    Client 3 | CKA=0.9539 | TRUSTED
+    Client 4 | CKA=0.9610 | TRUSTED
+    Client 6 | CKA=0.9428 | TRUSTED
+    Client 7 | CKA=0.9526 | TRUSTED
+    Client 8 | CKA=0.9521 | TRUSTED
+    Client 9 | CKA=0.9694 | TRUSTED
+    Client 0 | CKA=0.9085 | FILTERED
+    Client 5 | CKA=0.8836 | FILTERED
+  [FedCC] Round 6 — 8/10 clients trusted
+  [FedCC] Round 6 — Acc: 0.4828 | Loss: 1.3791
+
+  [FedCC] Round 7 — CKA scores per client:
+    Client 0: 0.9292
+    Client 1: 0.9789
+    Client 2: 0.9769
+    Client 3: 0.9649
+    Client 4: 0.9703
+    Client 5: 0.9021
+    Client 6: 0.9650
+    Client 7: 0.9610
+    Client 8: 0.9623
+    Client 9: 0.9747
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9789 | TRUSTED
+    Client 2 | CKA=0.9769 | TRUSTED
+    Client 3 | CKA=0.9649 | TRUSTED
+    Client 4 | CKA=0.9703 | TRUSTED
+    Client 6 | CKA=0.9650 | TRUSTED
+    Client 7 | CKA=0.9610 | TRUSTED
+    Client 8 | CKA=0.9623 | TRUSTED
+    Client 9 | CKA=0.9747 | TRUSTED
+    Client 0 | CKA=0.9292 | FILTERED
+    Client 5 | CKA=0.9021 | FILTERED
+  [FedCC] Round 7 — 8/10 clients trusted
+  [FedCC] Round 7 — Acc: 0.5027 | Loss: 1.3471
+
+  [FedCC] Round 8 — CKA scores per client:
+    Client 0: 0.9443
+    Client 1: 0.9813
+    Client 2: 0.9826
+    Client 3: 0.9716
+    Client 4: 0.9751
+    Client 5: 0.9184
+    Client 6: 0.9713
+    Client 7: 0.9693
+    Client 8: 0.9704
+    Client 9: 0.9815
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9813 | TRUSTED
+    Client 2 | CKA=0.9826 | TRUSTED
+    Client 3 | CKA=0.9716 | TRUSTED
+    Client 4 | CKA=0.9751 | TRUSTED
+    Client 6 | CKA=0.9713 | TRUSTED
+    Client 7 | CKA=0.9693 | TRUSTED
+    Client 8 | CKA=0.9704 | TRUSTED
+    Client 9 | CKA=0.9815 | TRUSTED
+    Client 0 | CKA=0.9443 | FILTERED
+    Client 5 | CKA=0.9184 | FILTERED
+  [FedCC] Round 8 — 8/10 clients trusted
+  [FedCC] Round 8 — Acc: 0.5117 | Loss: 1.3148
+
+  [FedCC] Round 9 — CKA scores per client:
+    Client 0: 0.9476
+    Client 1: 0.9845
+    Client 2: 0.9845
+    Client 3: 0.9772
+    Client 4: 0.9793
+    Client 5: 0.9299
+    Client 6: 0.9760
+    Client 7: 0.9756
+    Client 8: 0.9731
+    Client 9: 0.9823
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9845 | TRUSTED
+    Client 2 | CKA=0.9845 | TRUSTED
+    Client 3 | CKA=0.9772 | TRUSTED
+    Client 4 | CKA=0.9793 | TRUSTED
+    Client 6 | CKA=0.9760 | TRUSTED
+    Client 7 | CKA=0.9756 | TRUSTED
+    Client 8 | CKA=0.9731 | TRUSTED
+    Client 9 | CKA=0.9823 | TRUSTED
+    Client 0 | CKA=0.9476 | FILTERED
+    Client 5 | CKA=0.9299 | FILTERED
+  [FedCC] Round 9 — 8/10 clients trusted
+  [FedCC] Round 9 — Acc: 0.5348 | Loss: 1.2683
+
+  [FedCC] Round 10 — CKA scores per client:
+    Client 0: 0.9577
+    Client 1: 0.9856
+    Client 2: 0.9869
+    Client 3: 0.9812
+    Client 4: 0.9810
+    Client 5: 0.9392
+    Client 6: 0.9792
+    Client 7: 0.9777
+    Client 8: 0.9782
+    Client 9: 0.9857
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9856 | TRUSTED
+    Client 2 | CKA=0.9869 | TRUSTED
+    Client 3 | CKA=0.9812 | TRUSTED
+    Client 4 | CKA=0.9810 | TRUSTED
+    Client 6 | CKA=0.9792 | TRUSTED
+    Client 7 | CKA=0.9777 | TRUSTED
+    Client 8 | CKA=0.9782 | TRUSTED
+    Client 9 | CKA=0.9857 | TRUSTED
+    Client 0 | CKA=0.9577 | FILTERED
+    Client 5 | CKA=0.9392 | FILTERED
+  [FedCC] Round 10 — 8/10 clients trusted
+  [FedCC] Round 10 — Acc: 0.5342 | Loss: 1.2592
+
+  [FedCC] Round 11 — CKA scores per client:
+    Client 0: 0.9632
+    Client 1: 0.9906
+    Client 2: 0.9881
+    Client 3: 0.9831
+    Client 4: 0.9837
+    Client 5: 0.9439
+    Client 6: 0.9830
+    Client 7: 0.9830
+    Client 8: 0.9828
+    Client 9: 0.9879
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9906 | TRUSTED
+    Client 2 | CKA=0.9881 | TRUSTED
+    Client 3 | CKA=0.9831 | TRUSTED
+    Client 4 | CKA=0.9837 | TRUSTED
+    Client 6 | CKA=0.9830 | TRUSTED
+    Client 7 | CKA=0.9830 | TRUSTED
+    Client 8 | CKA=0.9828 | TRUSTED
+    Client 9 | CKA=0.9879 | TRUSTED
+    Client 0 | CKA=0.9632 | FILTERED
+    Client 5 | CKA=0.9439 | FILTERED
+  [FedCC] Round 11 — 8/10 clients trusted
+  [FedCC] Round 11 — Acc: 0.5655 | Loss: 1.1944
+
+  [FedCC] Round 12 — CKA scores per client:
+    Client 0: 0.9697
+    Client 1: 0.9910
+    Client 2: 0.9903
+    Client 3: 0.9853
+    Client 4: 0.9873
+    Client 5: 0.9583
+    Client 6: 0.9854
+    Client 7: 0.9869
+    Client 8: 0.9851
+    Client 9: 0.9912
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9910 | TRUSTED
+    Client 2 | CKA=0.9903 | TRUSTED
+    Client 3 | CKA=0.9853 | TRUSTED
+    Client 4 | CKA=0.9873 | TRUSTED
+    Client 6 | CKA=0.9854 | TRUSTED
+    Client 7 | CKA=0.9869 | TRUSTED
+    Client 8 | CKA=0.9851 | TRUSTED
+    Client 9 | CKA=0.9912 | TRUSTED
+    Client 0 | CKA=0.9697 | FILTERED
+    Client 5 | CKA=0.9583 | FILTERED
+  [FedCC] Round 12 — 8/10 clients trusted
+  [FedCC] Round 12 — Acc: 0.5728 | Loss: 1.1660
+
+  [FedCC] Round 13 — CKA scores per client:
+    Client 0: 0.9739
+    Client 1: 0.9934
+    Client 2: 0.9922
+    Client 3: 0.9884
+    Client 4: 0.9891
+    Client 5: 0.9616
+    Client 6: 0.9886
+    Client 7: 0.9879
+    Client 8: 0.9863
+    Client 9: 0.9913
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9934 | TRUSTED
+    Client 2 | CKA=0.9922 | TRUSTED
+    Client 3 | CKA=0.9884 | TRUSTED
+    Client 4 | CKA=0.9891 | TRUSTED
+    Client 6 | CKA=0.9886 | TRUSTED
+    Client 7 | CKA=0.9879 | TRUSTED
+    Client 8 | CKA=0.9863 | TRUSTED
+    Client 9 | CKA=0.9913 | TRUSTED
+    Client 0 | CKA=0.9739 | FILTERED
+    Client 5 | CKA=0.9616 | FILTERED
+  [FedCC] Round 13 — 8/10 clients trusted
+  [FedCC] Round 13 — Acc: 0.5748 | Loss: 1.1657
+
+  [FedCC] Round 14 — CKA scores per client:
+    Client 0: 0.9756
+    Client 1: 0.9942
+    Client 2: 0.9931
+    Client 3: 0.9893
+    Client 4: 0.9901
+    Client 5: 0.9655
+    Client 6: 0.9885
+    Client 7: 0.9903
+    Client 8: 0.9883
+    Client 9: 0.9926
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9942 | TRUSTED
+    Client 2 | CKA=0.9931 | TRUSTED
+    Client 3 | CKA=0.9893 | TRUSTED
+    Client 4 | CKA=0.9901 | TRUSTED
+    Client 6 | CKA=0.9885 | TRUSTED
+    Client 7 | CKA=0.9903 | TRUSTED
+    Client 8 | CKA=0.9883 | TRUSTED
+    Client 9 | CKA=0.9926 | TRUSTED
+    Client 0 | CKA=0.9756 | FILTERED
+    Client 5 | CKA=0.9655 | FILTERED
+  [FedCC] Round 14 — 8/10 clients trusted
+  [FedCC] Round 14 — Acc: 0.5953 | Loss: 1.1143
+
+  [FedCC] Round 15 — CKA scores per client:
+    Client 0: 0.9792
+    Client 1: 0.9943
+    Client 2: 0.9936
+    Client 3: 0.9904
+    Client 4: 0.9914
+    Client 5: 0.9703
+    Client 6: 0.9917
+    Client 7: 0.9911
+    Client 8: 0.9895
+    Client 9: 0.9941
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9943 | TRUSTED
+    Client 2 | CKA=0.9936 | TRUSTED
+    Client 3 | CKA=0.9904 | TRUSTED
+    Client 4 | CKA=0.9914 | TRUSTED
+    Client 6 | CKA=0.9917 | TRUSTED
+    Client 7 | CKA=0.9911 | TRUSTED
+    Client 8 | CKA=0.9895 | TRUSTED
+    Client 9 | CKA=0.9941 | TRUSTED
+    Client 0 | CKA=0.9792 | FILTERED
+    Client 5 | CKA=0.9703 | FILTERED
+  [FedCC] Round 15 — 8/10 clients trusted
+  [FedCC] Round 15 — Acc: 0.6071 | Loss: 1.0894
+
+  [FedCC] Round 16 — CKA scores per client:
+    Client 0: 0.9819
+    Client 1: 0.9956
+    Client 2: 0.9952
+    Client 3: 0.9913
+    Client 4: 0.9931
+    Client 5: 0.9727
+    Client 6: 0.9924
+    Client 7: 0.9931
+    Client 8: 0.9909
+    Client 9: 0.9948
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9956 | TRUSTED
+    Client 2 | CKA=0.9952 | TRUSTED
+    Client 3 | CKA=0.9913 | TRUSTED
+    Client 4 | CKA=0.9931 | TRUSTED
+    Client 6 | CKA=0.9924 | TRUSTED
+    Client 7 | CKA=0.9931 | TRUSTED
+    Client 8 | CKA=0.9909 | TRUSTED
+    Client 9 | CKA=0.9948 | TRUSTED
+    Client 0 | CKA=0.9819 | FILTERED
+    Client 5 | CKA=0.9727 | FILTERED
+  [FedCC] Round 16 — 8/10 clients trusted
+  [FedCC] Round 16 — Acc: 0.6105 | Loss: 1.0703
+
+  [FedCC] Round 17 — CKA scores per client:
+    Client 0: 0.9827
+    Client 1: 0.9956
+    Client 2: 0.9955
+    Client 3: 0.9921
+    Client 4: 0.9936
+    Client 5: 0.9756
+    Client 6: 0.9932
+    Client 7: 0.9934
+    Client 8: 0.9922
+    Client 9: 0.9952
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9956 | TRUSTED
+    Client 2 | CKA=0.9955 | TRUSTED
+    Client 3 | CKA=0.9921 | TRUSTED
+    Client 4 | CKA=0.9936 | TRUSTED
+    Client 6 | CKA=0.9932 | TRUSTED
+    Client 7 | CKA=0.9934 | TRUSTED
+    Client 8 | CKA=0.9922 | TRUSTED
+    Client 9 | CKA=0.9952 | TRUSTED
+    Client 0 | CKA=0.9827 | FILTERED
+    Client 5 | CKA=0.9756 | FILTERED
+  [FedCC] Round 17 — 8/10 clients trusted
+  [FedCC] Round 17 — Acc: 0.6238 | Loss: 1.0413
+
+  [FedCC] Round 18 — CKA scores per client:
+    Client 0: 0.9857
+    Client 1: 0.9963
+    Client 2: 0.9962
+    Client 3: 0.9934
+    Client 4: 0.9936
+    Client 5: 0.9770
+    Client 6: 0.9946
+    Client 7: 0.9937
+    Client 8: 0.9934
+    Client 9: 0.9961
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9963 | TRUSTED
+    Client 2 | CKA=0.9962 | TRUSTED
+    Client 3 | CKA=0.9934 | TRUSTED
+    Client 4 | CKA=0.9936 | TRUSTED
+    Client 6 | CKA=0.9946 | TRUSTED
+    Client 7 | CKA=0.9937 | TRUSTED
+    Client 8 | CKA=0.9934 | TRUSTED
+    Client 9 | CKA=0.9961 | TRUSTED
+    Client 0 | CKA=0.9857 | FILTERED
+    Client 5 | CKA=0.9770 | FILTERED
+  [FedCC] Round 18 — 8/10 clients trusted
+  [FedCC] Round 18 — Acc: 0.6333 | Loss: 1.0181
+
+  [FedCC] Round 19 — CKA scores per client:
+    Client 0: 0.9877
+    Client 1: 0.9964
+    Client 2: 0.9965
+    Client 3: 0.9939
+    Client 4: 0.9945
+    Client 5: 0.9818
+    Client 6: 0.9951
+    Client 7: 0.9946
+    Client 8: 0.9939
+    Client 9: 0.9960
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9964 | TRUSTED
+    Client 2 | CKA=0.9965 | TRUSTED
+    Client 3 | CKA=0.9939 | TRUSTED
+    Client 4 | CKA=0.9945 | TRUSTED
+    Client 6 | CKA=0.9951 | TRUSTED
+    Client 7 | CKA=0.9946 | TRUSTED
+    Client 8 | CKA=0.9939 | TRUSTED
+    Client 9 | CKA=0.9960 | TRUSTED
+    Client 0 | CKA=0.9877 | FILTERED
+    Client 5 | CKA=0.9818 | FILTERED
+  [FedCC] Round 19 — 8/10 clients trusted
+  [FedCC] Round 19 — Acc: 0.6318 | Loss: 1.0124
+
+  [FedCC] Round 20 — CKA scores per client:
+    Client 0: 0.9885
+    Client 1: 0.9970
+    Client 2: 0.9971
+    Client 3: 0.9944
+    Client 4: 0.9949
+    Client 5: 0.9835
+    Client 6: 0.9955
+    Client 7: 0.9953
+    Client 8: 0.9946
+    Client 9: 0.9967
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9970 | TRUSTED
+    Client 2 | CKA=0.9971 | TRUSTED
+    Client 3 | CKA=0.9944 | TRUSTED
+    Client 4 | CKA=0.9949 | TRUSTED
+    Client 6 | CKA=0.9955 | TRUSTED
+    Client 7 | CKA=0.9953 | TRUSTED
+    Client 8 | CKA=0.9946 | TRUSTED
+    Client 9 | CKA=0.9967 | TRUSTED
+    Client 0 | CKA=0.9885 | FILTERED
+    Client 5 | CKA=0.9835 | FILTERED
+  [FedCC] Round 20 — 8/10 clients trusted
+  [FedCC] Round 20 — Acc: 0.6396 | Loss: 0.9934
+
+  [FedCC] Round 21 — CKA scores per client:
+    Client 0: 0.9900
+    Client 1: 0.9970
+    Client 2: 0.9973
+    Client 3: 0.9951
+    Client 4: 0.9954
+    Client 5: 0.9846
+    Client 6: 0.9958
+    Client 7: 0.9960
+    Client 8: 0.9952
+    Client 9: 0.9967
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9970 | TRUSTED
+    Client 2 | CKA=0.9973 | TRUSTED
+    Client 3 | CKA=0.9951 | TRUSTED
+    Client 4 | CKA=0.9954 | TRUSTED
+    Client 6 | CKA=0.9958 | TRUSTED
+    Client 7 | CKA=0.9960 | TRUSTED
+    Client 8 | CKA=0.9952 | TRUSTED
+    Client 9 | CKA=0.9967 | TRUSTED
+    Client 0 | CKA=0.9900 | FILTERED
+    Client 5 | CKA=0.9846 | FILTERED
+  [FedCC] Round 21 — 8/10 clients trusted
+  [FedCC] Round 21 — Acc: 0.6498 | Loss: 0.9734
+
+  [FedCC] Round 22 — CKA scores per client:
+    Client 0: 0.9906
+    Client 1: 0.9972
+    Client 2: 0.9973
+    Client 3: 0.9954
+    Client 4: 0.9957
+    Client 5: 0.9857
+    Client 6: 0.9958
+    Client 7: 0.9960
+    Client 8: 0.9953
+    Client 9: 0.9971
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9972 | TRUSTED
+    Client 2 | CKA=0.9973 | TRUSTED
+    Client 3 | CKA=0.9954 | TRUSTED
+    Client 4 | CKA=0.9957 | TRUSTED
+    Client 6 | CKA=0.9958 | TRUSTED
+    Client 7 | CKA=0.9960 | TRUSTED
+    Client 8 | CKA=0.9953 | TRUSTED
+    Client 9 | CKA=0.9971 | TRUSTED
+    Client 0 | CKA=0.9906 | FILTERED
+    Client 5 | CKA=0.9857 | FILTERED
+  [FedCC] Round 22 — 8/10 clients trusted
+  [FedCC] Round 22 — Acc: 0.6500 | Loss: 0.9752
+
+  [FedCC] Round 23 — CKA scores per client:
+    Client 0: 0.9912
+    Client 1: 0.9976
+    Client 2: 0.9976
+    Client 3: 0.9956
+    Client 4: 0.9964
+    Client 5: 0.9881
+    Client 6: 0.9966
+    Client 7: 0.9961
+    Client 8: 0.9959
+    Client 9: 0.9971
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9976 | TRUSTED
+    Client 2 | CKA=0.9976 | TRUSTED
+    Client 3 | CKA=0.9956 | TRUSTED
+    Client 4 | CKA=0.9964 | TRUSTED
+    Client 6 | CKA=0.9966 | TRUSTED
+    Client 7 | CKA=0.9961 | TRUSTED
+    Client 8 | CKA=0.9959 | TRUSTED
+    Client 9 | CKA=0.9971 | TRUSTED
+    Client 0 | CKA=0.9912 | FILTERED
+    Client 5 | CKA=0.9881 | FILTERED
+  [FedCC] Round 23 — 8/10 clients trusted
+  [FedCC] Round 23 — Acc: 0.6547 | Loss: 0.9586
+
+  [FedCC] Round 24 — CKA scores per client:
+    Client 0: 0.9915
+    Client 1: 0.9978
+    Client 2: 0.9979
+    Client 3: 0.9961
+    Client 4: 0.9963
+    Client 5: 0.9885
+    Client 6: 0.9969
+    Client 7: 0.9965
+    Client 8: 0.9961
+    Client 9: 0.9974
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9978 | TRUSTED
+    Client 2 | CKA=0.9979 | TRUSTED
+    Client 3 | CKA=0.9961 | TRUSTED
+    Client 4 | CKA=0.9963 | TRUSTED
+    Client 6 | CKA=0.9969 | TRUSTED
+    Client 7 | CKA=0.9965 | TRUSTED
+    Client 8 | CKA=0.9961 | TRUSTED
+    Client 9 | CKA=0.9974 | TRUSTED
+    Client 0 | CKA=0.9915 | FILTERED
+    Client 5 | CKA=0.9885 | FILTERED
+  [FedCC] Round 24 — 8/10 clients trusted
+  [FedCC] Round 24 — Acc: 0.6561 | Loss: 0.9512
+
+  [FedCC] Round 25 — CKA scores per client:
+    Client 0: 0.9929
+    Client 1: 0.9979
+    Client 2: 0.9979
+    Client 3: 0.9963
+    Client 4: 0.9970
+    Client 5: 0.9889
+    Client 6: 0.9973
+    Client 7: 0.9970
+    Client 8: 0.9962
+    Client 9: 0.9978
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9979 | TRUSTED
+    Client 2 | CKA=0.9979 | TRUSTED
+    Client 3 | CKA=0.9963 | TRUSTED
+    Client 4 | CKA=0.9970 | TRUSTED
+    Client 6 | CKA=0.9973 | TRUSTED
+    Client 7 | CKA=0.9970 | TRUSTED
+    Client 8 | CKA=0.9962 | TRUSTED
+    Client 9 | CKA=0.9978 | TRUSTED
+    Client 0 | CKA=0.9929 | FILTERED
+    Client 5 | CKA=0.9889 | FILTERED
+  [FedCC] Round 25 — 8/10 clients trusted
+  [FedCC] Round 25 — Acc: 0.6631 | Loss: 0.9358
+
+  [FedCC] Round 26 — CKA scores per client:
+    Client 0: 0.9930
+    Client 1: 0.9978
+    Client 2: 0.9980
+    Client 3: 0.9965
+    Client 4: 0.9971
+    Client 5: 0.9907
+    Client 6: 0.9974
+    Client 7: 0.9967
+    Client 8: 0.9963
+    Client 9: 0.9978
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9978 | TRUSTED
+    Client 2 | CKA=0.9980 | TRUSTED
+    Client 3 | CKA=0.9965 | TRUSTED
+    Client 4 | CKA=0.9971 | TRUSTED
+    Client 6 | CKA=0.9974 | TRUSTED
+    Client 7 | CKA=0.9967 | TRUSTED
+    Client 8 | CKA=0.9963 | TRUSTED
+    Client 9 | CKA=0.9978 | TRUSTED
+    Client 0 | CKA=0.9930 | FILTERED
+    Client 5 | CKA=0.9907 | FILTERED
+  [FedCC] Round 26 — 8/10 clients trusted
+  [FedCC] Round 26 — Acc: 0.6706 | Loss: 0.9256
+
+  [FedCC] Round 27 — CKA scores per client:
+    Client 0: 0.9942
+    Client 1: 0.9983
+    Client 2: 0.9983
+    Client 3: 0.9967
+    Client 4: 0.9972
+    Client 5: 0.9902
+    Client 6: 0.9975
+    Client 7: 0.9971
+    Client 8: 0.9968
+    Client 9: 0.9980
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9983 | TRUSTED
+    Client 2 | CKA=0.9983 | TRUSTED
+    Client 3 | CKA=0.9967 | TRUSTED
+    Client 4 | CKA=0.9972 | TRUSTED
+    Client 6 | CKA=0.9975 | TRUSTED
+    Client 7 | CKA=0.9971 | TRUSTED
+    Client 8 | CKA=0.9968 | TRUSTED
+    Client 9 | CKA=0.9980 | TRUSTED
+    Client 0 | CKA=0.9942 | FILTERED
+    Client 5 | CKA=0.9902 | FILTERED
+  [FedCC] Round 27 — 8/10 clients trusted
+  [FedCC] Round 27 — Acc: 0.6733 | Loss: 0.9188
+
+  [FedCC] Round 28 — CKA scores per client:
+    Client 0: 0.9944
+    Client 1: 0.9982
+    Client 2: 0.9982
+    Client 3: 0.9972
+    Client 4: 0.9973
+    Client 5: 0.9911
+    Client 6: 0.9979
+    Client 7: 0.9972
+    Client 8: 0.9970
+    Client 9: 0.9981
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9982 | TRUSTED
+    Client 2 | CKA=0.9982 | TRUSTED
+    Client 3 | CKA=0.9972 | TRUSTED
+    Client 4 | CKA=0.9973 | TRUSTED
+    Client 6 | CKA=0.9979 | TRUSTED
+    Client 7 | CKA=0.9972 | TRUSTED
+    Client 8 | CKA=0.9970 | TRUSTED
+    Client 9 | CKA=0.9981 | TRUSTED
+    Client 0 | CKA=0.9944 | FILTERED
+    Client 5 | CKA=0.9911 | FILTERED
+  [FedCC] Round 28 — 8/10 clients trusted
+  [FedCC] Round 28 — Acc: 0.6780 | Loss: 0.9095
+
+  [FedCC] Round 29 — CKA scores per client:
+    Client 0: 0.9945
+    Client 1: 0.9984
+    Client 2: 0.9984
+    Client 3: 0.9973
+    Client 4: 0.9975
+    Client 5: 0.9930
+    Client 6: 0.9979
+    Client 7: 0.9976
+    Client 8: 0.9971
+    Client 9: 0.9984
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9984 | TRUSTED
+    Client 2 | CKA=0.9984 | TRUSTED
+    Client 3 | CKA=0.9973 | TRUSTED
+    Client 4 | CKA=0.9975 | TRUSTED
+    Client 6 | CKA=0.9979 | TRUSTED
+    Client 7 | CKA=0.9976 | TRUSTED
+    Client 8 | CKA=0.9971 | TRUSTED
+    Client 9 | CKA=0.9984 | TRUSTED
+    Client 0 | CKA=0.9945 | FILTERED
+    Client 5 | CKA=0.9930 | FILTERED
+  [FedCC] Round 29 — 8/10 clients trusted
+  [FedCC] Round 29 — Acc: 0.6798 | Loss: 0.9057
+
+  [FedCC] Round 30 — CKA scores per client:
+    Client 0: 0.9948
+    Client 1: 0.9984
+    Client 2: 0.9984
+    Client 3: 0.9972
+    Client 4: 0.9977
+    Client 5: 0.9929
+    Client 6: 0.9981
+    Client 7: 0.9976
+    Client 8: 0.9972
+    Client 9: 0.9982
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9984 | TRUSTED
+    Client 2 | CKA=0.9984 | TRUSTED
+    Client 3 | CKA=0.9972 | TRUSTED
+    Client 4 | CKA=0.9977 | TRUSTED
+    Client 6 | CKA=0.9981 | TRUSTED
+    Client 7 | CKA=0.9976 | TRUSTED
+    Client 8 | CKA=0.9972 | TRUSTED
+    Client 9 | CKA=0.9982 | TRUSTED
+    Client 0 | CKA=0.9948 | FILTERED
+    Client 5 | CKA=0.9929 | FILTERED
+  [FedCC] Round 30 — 8/10 clients trusted
+  [FedCC] Round 30 — Acc: 0.6851 | Loss: 0.8998
+
+  [FedCC] Round 31 — CKA scores per client:
+    Client 0: 0.9949
+    Client 1: 0.9985
+    Client 2: 0.9986
+    Client 3: 0.9975
+    Client 4: 0.9977
+    Client 5: 0.9930
+    Client 6: 0.9983
+    Client 7: 0.9978
+    Client 8: 0.9973
+    Client 9: 0.9983
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9985 | TRUSTED
+    Client 2 | CKA=0.9986 | TRUSTED
+    Client 3 | CKA=0.9975 | TRUSTED
+    Client 4 | CKA=0.9977 | TRUSTED
+    Client 6 | CKA=0.9983 | TRUSTED
+    Client 7 | CKA=0.9978 | TRUSTED
+    Client 8 | CKA=0.9973 | TRUSTED
+    Client 9 | CKA=0.9983 | TRUSTED
+    Client 0 | CKA=0.9949 | FILTERED
+    Client 5 | CKA=0.9930 | FILTERED
+  [FedCC] Round 31 — 8/10 clients trusted
+  [FedCC] Round 31 — Acc: 0.6858 | Loss: 0.9020
+
+  [FedCC] Round 32 — CKA scores per client:
+    Client 0: 0.9955
+    Client 1: 0.9986
+    Client 2: 0.9986
+    Client 3: 0.9976
+    Client 4: 0.9979
+    Client 5: 0.9936
+    Client 6: 0.9984
+    Client 7: 0.9980
+    Client 8: 0.9977
+    Client 9: 0.9984
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9986 | TRUSTED
+    Client 2 | CKA=0.9986 | TRUSTED
+    Client 3 | CKA=0.9976 | TRUSTED
+    Client 4 | CKA=0.9979 | TRUSTED
+    Client 6 | CKA=0.9984 | TRUSTED
+    Client 7 | CKA=0.9980 | TRUSTED
+    Client 8 | CKA=0.9977 | TRUSTED
+    Client 9 | CKA=0.9984 | TRUSTED
+    Client 0 | CKA=0.9955 | FILTERED
+    Client 5 | CKA=0.9936 | FILTERED
+  [FedCC] Round 32 — 8/10 clients trusted
+  [FedCC] Round 32 — Acc: 0.6896 | Loss: 0.8924
+
+  [FedCC] Round 33 — CKA scores per client:
+    Client 0: 0.9958
+    Client 1: 0.9987
+    Client 2: 0.9987
+    Client 3: 0.9978
+    Client 4: 0.9979
+    Client 5: 0.9938
+    Client 6: 0.9984
+    Client 7: 0.9982
+    Client 8: 0.9977
+    Client 9: 0.9986
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9987 | TRUSTED
+    Client 2 | CKA=0.9987 | TRUSTED
+    Client 3 | CKA=0.9978 | TRUSTED
+    Client 4 | CKA=0.9979 | TRUSTED
+    Client 6 | CKA=0.9984 | TRUSTED
+    Client 7 | CKA=0.9982 | TRUSTED
+    Client 8 | CKA=0.9977 | TRUSTED
+    Client 9 | CKA=0.9986 | TRUSTED
+    Client 0 | CKA=0.9958 | FILTERED
+    Client 5 | CKA=0.9938 | FILTERED
+  [FedCC] Round 33 — 8/10 clients trusted
+  [FedCC] Round 33 — Acc: 0.6848 | Loss: 0.9027
+
+  [FedCC] Round 34 — CKA scores per client:
+    Client 0: 0.9959
+    Client 1: 0.9988
+    Client 2: 0.9988
+    Client 3: 0.9980
+    Client 4: 0.9981
+    Client 5: 0.9942
+    Client 6: 0.9987
+    Client 7: 0.9981
+    Client 8: 0.9979
+    Client 9: 0.9986
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9988 | TRUSTED
+    Client 2 | CKA=0.9988 | TRUSTED
+    Client 3 | CKA=0.9980 | TRUSTED
+    Client 4 | CKA=0.9981 | TRUSTED
+    Client 6 | CKA=0.9987 | TRUSTED
+    Client 7 | CKA=0.9981 | TRUSTED
+    Client 8 | CKA=0.9979 | TRUSTED
+    Client 9 | CKA=0.9986 | TRUSTED
+    Client 0 | CKA=0.9959 | FILTERED
+    Client 5 | CKA=0.9942 | FILTERED
+  [FedCC] Round 34 — 8/10 clients trusted
+  [FedCC] Round 34 — Acc: 0.6877 | Loss: 0.9042
+
+  [FedCC] Round 35 — CKA scores per client:
+    Client 0: 0.9962
+    Client 1: 0.9988
+    Client 2: 0.9989
+    Client 3: 0.9981
+    Client 4: 0.9981
+    Client 5: 0.9945
+    Client 6: 0.9986
+    Client 7: 0.9982
+    Client 8: 0.9979
+    Client 9: 0.9987
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9988 | TRUSTED
+    Client 2 | CKA=0.9989 | TRUSTED
+    Client 3 | CKA=0.9981 | TRUSTED
+    Client 4 | CKA=0.9981 | TRUSTED
+    Client 6 | CKA=0.9986 | TRUSTED
+    Client 7 | CKA=0.9982 | TRUSTED
+    Client 8 | CKA=0.9979 | TRUSTED
+    Client 9 | CKA=0.9987 | TRUSTED
+    Client 0 | CKA=0.9962 | FILTERED
+    Client 5 | CKA=0.9945 | FILTERED
+  [FedCC] Round 35 — 8/10 clients trusted
+  [FedCC] Round 35 — Acc: 0.6951 | Loss: 0.8863
+
+  [FedCC] Round 36 — CKA scores per client:
+    Client 0: 0.9963
+    Client 1: 0.9988
+    Client 2: 0.9989
+    Client 3: 0.9981
+    Client 4: 0.9983
+    Client 5: 0.9952
+    Client 6: 0.9986
+    Client 7: 0.9984
+    Client 8: 0.9980
+    Client 9: 0.9988
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9988 | TRUSTED
+    Client 2 | CKA=0.9989 | TRUSTED
+    Client 3 | CKA=0.9981 | TRUSTED
+    Client 4 | CKA=0.9983 | TRUSTED
+    Client 6 | CKA=0.9986 | TRUSTED
+    Client 7 | CKA=0.9984 | TRUSTED
+    Client 8 | CKA=0.9980 | TRUSTED
+    Client 9 | CKA=0.9988 | TRUSTED
+    Client 0 | CKA=0.9963 | FILTERED
+    Client 5 | CKA=0.9952 | FILTERED
+  [FedCC] Round 36 — 8/10 clients trusted
+  [FedCC] Round 36 — Acc: 0.6936 | Loss: 0.8909
+
+  [FedCC] Round 37 — CKA scores per client:
+    Client 0: 0.9965
+    Client 1: 0.9989
+    Client 2: 0.9989
+    Client 3: 0.9983
+    Client 4: 0.9984
+    Client 5: 0.9948
+    Client 6: 0.9988
+    Client 7: 0.9983
+    Client 8: 0.9981
+    Client 9: 0.9987
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9989 | TRUSTED
+    Client 2 | CKA=0.9989 | TRUSTED
+    Client 3 | CKA=0.9983 | TRUSTED
+    Client 4 | CKA=0.9984 | TRUSTED
+    Client 6 | CKA=0.9988 | TRUSTED
+    Client 7 | CKA=0.9983 | TRUSTED
+    Client 8 | CKA=0.9981 | TRUSTED
+    Client 9 | CKA=0.9987 | TRUSTED
+    Client 0 | CKA=0.9965 | FILTERED
+    Client 5 | CKA=0.9948 | FILTERED
+  [FedCC] Round 37 — 8/10 clients trusted
+  [FedCC] Round 37 — Acc: 0.6959 | Loss: 0.8888
+
+  [FedCC] Round 38 — CKA scores per client:
+    Client 0: 0.9969
+    Client 1: 0.9990
+    Client 2: 0.9990
+    Client 3: 0.9982
+    Client 4: 0.9984
+    Client 5: 0.9951
+    Client 6: 0.9988
+    Client 7: 0.9984
+    Client 8: 0.9983
+    Client 9: 0.9989
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9990 | TRUSTED
+    Client 2 | CKA=0.9990 | TRUSTED
+    Client 3 | CKA=0.9982 | TRUSTED
+    Client 4 | CKA=0.9984 | TRUSTED
+    Client 6 | CKA=0.9988 | TRUSTED
+    Client 7 | CKA=0.9984 | TRUSTED
+    Client 8 | CKA=0.9983 | TRUSTED
+    Client 9 | CKA=0.9989 | TRUSTED
+    Client 0 | CKA=0.9969 | FILTERED
+    Client 5 | CKA=0.9951 | FILTERED
+  [FedCC] Round 38 — 8/10 clients trusted
+  [FedCC] Round 38 — Acc: 0.6958 | Loss: 0.8897
+
+  [FedCC] Round 39 — CKA scores per client:
+    Client 0: 0.9970
+    Client 1: 0.9990
+    Client 2: 0.9990
+    Client 3: 0.9983
+    Client 4: 0.9985
+    Client 5: 0.9951
+    Client 6: 0.9990
+    Client 7: 0.9985
+    Client 8: 0.9983
+    Client 9: 0.9989
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9990 | TRUSTED
+    Client 2 | CKA=0.9990 | TRUSTED
+    Client 3 | CKA=0.9983 | TRUSTED
+    Client 4 | CKA=0.9985 | TRUSTED
+    Client 6 | CKA=0.9990 | TRUSTED
+    Client 7 | CKA=0.9985 | TRUSTED
+    Client 8 | CKA=0.9983 | TRUSTED
+    Client 9 | CKA=0.9989 | TRUSTED
+    Client 0 | CKA=0.9970 | FILTERED
+    Client 5 | CKA=0.9951 | FILTERED
+  [FedCC] Round 39 — 8/10 clients trusted
+  [FedCC] Round 39 — Acc: 0.6978 | Loss: 0.8823
+
+  [FedCC] Round 40 — CKA scores per client:
+    Client 0: 0.9969
+    Client 1: 0.9991
+    Client 2: 0.9991
+    Client 3: 0.9984
+    Client 4: 0.9985
+    Client 5: 0.9958
+    Client 6: 0.9989
+    Client 7: 0.9986
+    Client 8: 0.9984
+    Client 9: 0.9989
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9991 | TRUSTED
+    Client 2 | CKA=0.9991 | TRUSTED
+    Client 3 | CKA=0.9984 | TRUSTED
+    Client 4 | CKA=0.9985 | TRUSTED
+    Client 6 | CKA=0.9989 | TRUSTED
+    Client 7 | CKA=0.9986 | TRUSTED
+    Client 8 | CKA=0.9984 | TRUSTED
+    Client 9 | CKA=0.9989 | TRUSTED
+    Client 0 | CKA=0.9969 | FILTERED
+    Client 5 | CKA=0.9958 | FILTERED
+  [FedCC] Round 40 — 8/10 clients trusted
+  [FedCC] Round 40 — Acc: 0.6986 | Loss: 0.8908
+
+  [FedCC] Round 41 — CKA scores per client:
+    Client 0: 0.9972
+    Client 1: 0.9991
+    Client 2: 0.9992
+    Client 3: 0.9986
+    Client 4: 0.9986
+    Client 5: 0.9958
+    Client 6: 0.9990
+    Client 7: 0.9986
+    Client 8: 0.9984
+    Client 9: 0.9990
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9991 | TRUSTED
+    Client 2 | CKA=0.9992 | TRUSTED
+    Client 3 | CKA=0.9986 | TRUSTED
+    Client 4 | CKA=0.9986 | TRUSTED
+    Client 6 | CKA=0.9990 | TRUSTED
+    Client 7 | CKA=0.9986 | TRUSTED
+    Client 8 | CKA=0.9984 | TRUSTED
+    Client 9 | CKA=0.9990 | TRUSTED
+    Client 0 | CKA=0.9972 | FILTERED
+    Client 5 | CKA=0.9958 | FILTERED
+  [FedCC] Round 41 — 8/10 clients trusted
+  [FedCC] Round 41 — Acc: 0.6975 | Loss: 0.8974
+
+  [FedCC] Round 42 — CKA scores per client:
+    Client 0: 0.9974
+    Client 1: 0.9991
+    Client 2: 0.9992
+    Client 3: 0.9986
+    Client 4: 0.9986
+    Client 5: 0.9960
+    Client 6: 0.9991
+    Client 7: 0.9986
+    Client 8: 0.9986
+    Client 9: 0.9990
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9991 | TRUSTED
+    Client 2 | CKA=0.9992 | TRUSTED
+    Client 3 | CKA=0.9986 | TRUSTED
+    Client 4 | CKA=0.9986 | TRUSTED
+    Client 6 | CKA=0.9991 | TRUSTED
+    Client 7 | CKA=0.9986 | TRUSTED
+    Client 8 | CKA=0.9986 | TRUSTED
+    Client 9 | CKA=0.9990 | TRUSTED
+    Client 0 | CKA=0.9974 | FILTERED
+    Client 5 | CKA=0.9960 | FILTERED
+  [FedCC] Round 42 — 8/10 clients trusted
+  [FedCC] Round 42 — Acc: 0.6994 | Loss: 0.8998
+
+  [FedCC] Round 43 — CKA scores per client:
+    Client 0: 0.9973
+    Client 1: 0.9991
+    Client 2: 0.9992
+    Client 3: 0.9986
+    Client 4: 0.9987
+    Client 5: 0.9960
+    Client 6: 0.9990
+    Client 7: 0.9988
+    Client 8: 0.9986
+    Client 9: 0.9991
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9991 | TRUSTED
+    Client 2 | CKA=0.9992 | TRUSTED
+    Client 3 | CKA=0.9986 | TRUSTED
+    Client 4 | CKA=0.9987 | TRUSTED
+    Client 6 | CKA=0.9990 | TRUSTED
+    Client 7 | CKA=0.9988 | TRUSTED
+    Client 8 | CKA=0.9986 | TRUSTED
+    Client 9 | CKA=0.9991 | TRUSTED
+    Client 0 | CKA=0.9973 | FILTERED
+    Client 5 | CKA=0.9960 | FILTERED
+  [FedCC] Round 43 — 8/10 clients trusted
+  [FedCC] Round 43 — Acc: 0.7003 | Loss: 0.9032
+
+  [FedCC] Round 44 — CKA scores per client:
+    Client 0: 0.9973
+    Client 1: 0.9992
+    Client 2: 0.9992
+    Client 3: 0.9985
+    Client 4: 0.9987
+    Client 5: 0.9964
+    Client 6: 0.9991
+    Client 7: 0.9987
+    Client 8: 0.9987
+    Client 9: 0.9991
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9992 | TRUSTED
+    Client 2 | CKA=0.9992 | TRUSTED
+    Client 3 | CKA=0.9985 | TRUSTED
+    Client 4 | CKA=0.9987 | TRUSTED
+    Client 6 | CKA=0.9991 | TRUSTED
+    Client 7 | CKA=0.9987 | TRUSTED
+    Client 8 | CKA=0.9987 | TRUSTED
+    Client 9 | CKA=0.9991 | TRUSTED
+    Client 0 | CKA=0.9973 | FILTERED
+    Client 5 | CKA=0.9964 | FILTERED
+  [FedCC] Round 44 — 8/10 clients trusted
+  [FedCC] Round 44 — Acc: 0.7034 | Loss: 0.9011
+
+  [FedCC] Round 45 — CKA scores per client:
+    Client 0: 0.9974
+    Client 1: 0.9992
+    Client 2: 0.9993
+    Client 3: 0.9987
+    Client 4: 0.9988
+    Client 5: 0.9963
+    Client 6: 0.9992
+    Client 7: 0.9988
+    Client 8: 0.9987
+    Client 9: 0.9992
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9992 | TRUSTED
+    Client 2 | CKA=0.9993 | TRUSTED
+    Client 3 | CKA=0.9987 | TRUSTED
+    Client 4 | CKA=0.9988 | TRUSTED
+    Client 6 | CKA=0.9992 | TRUSTED
+    Client 7 | CKA=0.9988 | TRUSTED
+    Client 8 | CKA=0.9987 | TRUSTED
+    Client 9 | CKA=0.9992 | TRUSTED
+    Client 0 | CKA=0.9974 | FILTERED
+    Client 5 | CKA=0.9963 | FILTERED
+  [FedCC] Round 45 — 8/10 clients trusted
+  [FedCC] Round 45 — Acc: 0.7049 | Loss: 0.9013
+
+  [FedCC] Round 46 — CKA scores per client:
+    Client 0: 0.9978
+    Client 1: 0.9992
+    Client 2: 0.9993
+    Client 3: 0.9986
+    Client 4: 0.9988
+    Client 5: 0.9967
+    Client 6: 0.9992
+    Client 7: 0.9989
+    Client 8: 0.9987
+    Client 9: 0.9992
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9992 | TRUSTED
+    Client 2 | CKA=0.9993 | TRUSTED
+    Client 3 | CKA=0.9986 | TRUSTED
+    Client 4 | CKA=0.9988 | TRUSTED
+    Client 6 | CKA=0.9992 | TRUSTED
+    Client 7 | CKA=0.9989 | TRUSTED
+    Client 8 | CKA=0.9987 | TRUSTED
+    Client 9 | CKA=0.9992 | TRUSTED
+    Client 0 | CKA=0.9978 | FILTERED
+    Client 5 | CKA=0.9967 | FILTERED
+  [FedCC] Round 46 — 8/10 clients trusted
+  [FedCC] Round 46 — Acc: 0.7076 | Loss: 0.9156
+
+  [FedCC] Round 47 — CKA scores per client:
+    Client 0: 0.9976
+    Client 1: 0.9992
+    Client 2: 0.9993
+    Client 3: 0.9987
+    Client 4: 0.9988
+    Client 5: 0.9967
+    Client 6: 0.9992
+    Client 7: 0.9989
+    Client 8: 0.9987
+    Client 9: 0.9992
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9992 | TRUSTED
+    Client 2 | CKA=0.9993 | TRUSTED
+    Client 3 | CKA=0.9987 | TRUSTED
+    Client 4 | CKA=0.9988 | TRUSTED
+    Client 6 | CKA=0.9992 | TRUSTED
+    Client 7 | CKA=0.9989 | TRUSTED
+    Client 8 | CKA=0.9987 | TRUSTED
+    Client 9 | CKA=0.9992 | TRUSTED
+    Client 0 | CKA=0.9976 | FILTERED
+    Client 5 | CKA=0.9967 | FILTERED
+  [FedCC] Round 47 — 8/10 clients trusted
+  [FedCC] Round 47 — Acc: 0.7039 | Loss: 0.9254
+
+  [FedCC] Round 48 — CKA scores per client:
+    Client 0: 0.9976
+    Client 1: 0.9992
+    Client 2: 0.9993
+    Client 3: 0.9988
+    Client 4: 0.9988
+    Client 5: 0.9967
+    Client 6: 0.9992
+    Client 7: 0.9989
+    Client 8: 0.9988
+    Client 9: 0.9993
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9992 | TRUSTED
+    Client 2 | CKA=0.9993 | TRUSTED
+    Client 3 | CKA=0.9988 | TRUSTED
+    Client 4 | CKA=0.9988 | TRUSTED
+    Client 6 | CKA=0.9992 | TRUSTED
+    Client 7 | CKA=0.9989 | TRUSTED
+    Client 8 | CKA=0.9988 | TRUSTED
+    Client 9 | CKA=0.9993 | TRUSTED
+    Client 0 | CKA=0.9976 | FILTERED
+    Client 5 | CKA=0.9967 | FILTERED
+  [FedCC] Round 48 — 8/10 clients trusted
+  [FedCC] Round 48 — Acc: 0.7053 | Loss: 0.9108
+
+  [FedCC] Round 49 — CKA scores per client:
+    Client 0: 0.9979
+    Client 1: 0.9993
+    Client 2: 0.9994
+    Client 3: 0.9989
+    Client 4: 0.9989
+    Client 5: 0.9970
+    Client 6: 0.9993
+    Client 7: 0.9990
+    Client 8: 0.9989
+    Client 9: 0.9992
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9993 | TRUSTED
+    Client 2 | CKA=0.9994 | TRUSTED
+    Client 3 | CKA=0.9989 | TRUSTED
+    Client 4 | CKA=0.9989 | TRUSTED
+    Client 6 | CKA=0.9993 | TRUSTED
+    Client 7 | CKA=0.9990 | TRUSTED
+    Client 8 | CKA=0.9989 | TRUSTED
+    Client 9 | CKA=0.9992 | TRUSTED
+    Client 0 | CKA=0.9979 | FILTERED
+    Client 5 | CKA=0.9970 | FILTERED
+  [FedCC] Round 49 — 8/10 clients trusted
+  [FedCC] Round 49 — Acc: 0.7086 | Loss: 0.9272
+
+  [FedCC] Round 50 — CKA scores per client:
+    Client 0: 0.9978
+    Client 1: 0.9993
+    Client 2: 0.9993
+    Client 3: 0.9989
+    Client 4: 0.9990
+    Client 5: 0.9970
+    Client 6: 0.9993
+    Client 7: 0.9989
+    Client 8: 0.9988
+    Client 9: 0.9993
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9993 | TRUSTED
+    Client 2 | CKA=0.9993 | TRUSTED
+    Client 3 | CKA=0.9989 | TRUSTED
+    Client 4 | CKA=0.9990 | TRUSTED
+    Client 6 | CKA=0.9993 | TRUSTED
+    Client 7 | CKA=0.9989 | TRUSTED
+    Client 8 | CKA=0.9988 | TRUSTED
+    Client 9 | CKA=0.9993 | TRUSTED
+    Client 0 | CKA=0.9978 | FILTERED
+    Client 5 | CKA=0.9970 | FILTERED
+  [FedCC] Round 50 — 8/10 clients trusted
+  [FedCC] Round 50 — Acc: 0.7052 | Loss: 0.9417
+
+============================================================
+ Test 2  - Attack | Strategy: FedAvg | Mode: attack
+============================================================
+  [Client 0]: 7505 samples
+  [Client 1]: 3766 samples
+  [Client 1] Top-1 classes for GAN: ['cat'] [3]
+  [Client 2]: 2587 samples
+  [Client 2] Top-1 classes for GAN: ['cat'] [3]
+  [Client 3]: 5760 samples
+  [Client 4]: 5691 samples
+  [Client 5]: 7494 samples
+  [Client 5] Top-1 classes for GAN: ['cat'] [3]
+  [Client 6]: 2628 samples
+  [Client 7]: 4624 samples
+  [Client 8]: 5996 samples
+  [Client 9]: 3949 samples
+  [FedAvg] Round 1 — Acc: 0.1640 | Loss: 2.1794
+  [FedAvg] Round 2 — Acc: 0.3809 | Loss: 1.7312
+  [FedAvg] Round 3 — Acc: 0.3929 | Loss: 1.5985
+  [FedAvg] Round 4 — Acc: 0.4182 | Loss: 1.5300
+  [FedAvg] Round 5 — Acc: 0.3991 | Loss: 1.5418
+  [FedAvg] Round 6 — Acc: 0.4401 | Loss: 1.4564
+  [FedAvg] Round 7 — Acc: 0.4602 | Loss: 1.4120
+  [FedAvg] Round 8 — Acc: 0.4860 | Loss: 1.3579
+  [FedAvg] Round 9 — Acc: 0.4908 | Loss: 1.3471
+  [FedAvg] Round 10 — Acc: 0.5071 | Loss: 1.3033
+  [FedAvg] Round 11 — Acc: 0.5392 | Loss: 1.2391
+  [FedAvg] Round 12 — Acc: 0.5313 | Loss: 1.2413
+  [FedAvg] Round 13 — Acc: 0.5555 | Loss: 1.1910
+  [FedAvg] Round 14 — Acc: 0.5558 | Loss: 1.1871
+  [FedAvg] Round 15 — Acc: 0.5732 | Loss: 1.1423
+  [FedAvg] Round 16 — Acc: 0.5751 | Loss: 1.1434
+  [FedAvg] Round 17 — Acc: 0.5924 | Loss: 1.0917
+  [FedAvg] Round 18 — Acc: 0.5806 | Loss: 1.1276
+  [FedAvg] Round 19 — Acc: 0.6001 | Loss: 1.0779
+  [FedAvg] Round 20 — Acc: 0.6043 | Loss: 1.0690
+  [FedAvg] Round 21 — Acc: 0.6061 | Loss: 1.0683
+  [FedAvg] Round 22 — Acc: 0.6183 | Loss: 1.0456
+  [FedAvg] Round 23 — Acc: 0.6256 | Loss: 1.0260
+  [FedAvg] Round 24 — Acc: 0.6291 | Loss: 1.0139
+  [FedAvg] Round 25 — Acc: 0.6347 | Loss: 1.0139
+  [FedAvg] Round 26 — Acc: 0.6382 | Loss: 1.0113
+  [FedAvg] Round 27 — Acc: 0.6444 | Loss: 1.0009
+  [FedAvg] Round 28 — Acc: 0.6442 | Loss: 1.0027
+  [FedAvg] Round 29 — Acc: 0.6558 | Loss: 0.9847
+  [FedAvg] Round 30 — Acc: 0.6583 | Loss: 0.9749
+  [FedAvg] Round 31 — Acc: 0.6575 | Loss: 0.9837
+  [FedAvg] Round 32 — Acc: 0.6610 | Loss: 0.9762
+  [FedAvg] Round 33 — Acc: 0.6559 | Loss: 0.9941
+  [FedAvg] Round 34 — Acc: 0.6663 | Loss: 0.9652
+  [FedAvg] Round 35 — Acc: 0.6620 | Loss: 0.9961
+  [FedAvg] Round 36 — Acc: 0.6685 | Loss: 0.9734
+  [FedAvg] Round 37 — Acc: 0.6720 | Loss: 0.9798
+  [FedAvg] Round 38 — Acc: 0.6711 | Loss: 0.9859
+  [FedAvg] Round 39 — Acc: 0.6745 | Loss: 0.9751
+  [FedAvg] Round 40 — Acc: 0.6785 | Loss: 0.9810
+  [FedAvg] Round 41 — Acc: 0.6740 | Loss: 1.0034
+  [FedAvg] Round 42 — Acc: 0.6768 | Loss: 0.9943
+  [FedAvg] Round 43 — Acc: 0.6766 | Loss: 0.9995
+  [FedAvg] Round 44 — Acc: 0.6834 | Loss: 1.0005
+  [FedAvg] Round 45 — Acc: 0.6745 | Loss: 1.0169
+  [FedAvg] Round 46 — Acc: 0.6755 | Loss: 1.0245
+  [FedAvg] Round 47 — Acc: 0.6818 | Loss: 0.9969
+  [FedAvg] Round 48 — Acc: 0.6847 | Loss: 1.0029
+  [FedAvg] Round 49 — Acc: 0.6812 | Loss: 1.0183
+  [FedAvg] Round 50 — Acc: 0.6873 | Loss: 0.9991
+
+============================================================
+ Test 2  - Attack | Strategy: FedCC | Mode: attack
+============================================================
+  [Client 0]: 7505 samples
+  [Client 1]: 3766 samples
+  [Client 1] Top-1 classes for GAN: ['cat'] [3]
+  [Client 2]: 2587 samples
+  [Client 2] Top-1 classes for GAN: ['cat'] [3]
+  [Client 3]: 5760 samples
+  [Client 4]: 5691 samples
+  [Client 5]: 7494 samples
+  [Client 5] Top-1 classes for GAN: ['cat'] [3]
+  [Client 6]: 2628 samples
+  [Client 7]: 4624 samples
+  [Client 8]: 5996 samples
+  [Client 9]: 3949 samples
+
+  [FedCC] Round 1 — CKA scores per client:
+    Client 0: 0.4689
+    Client 1: 0.5007
+    Client 2: 0.5422
+    Client 3: 0.4880
+    Client 4: 0.5322
+    Client 5: 0.4377
+    Client 6: 0.5835
+    Client 7: 0.4562
+    Client 8: 0.4819
+    Client 9: 0.5739
+  [FedCC] Cluster sizes: 6 (label 0) | 4 (label 1)  →  trusted = label 0
+    Client 0 | CKA=0.4689 | TRUSTED
+    Client 1 | CKA=0.5007 | TRUSTED
+    Client 3 | CKA=0.4880 | TRUSTED
+    Client 5 | CKA=0.4377 | TRUSTED
+    Client 7 | CKA=0.4562 | TRUSTED
+    Client 8 | CKA=0.4819 | TRUSTED
+    Client 2 | CKA=0.5422 | FILTERED
+    Client 4 | CKA=0.5322 | FILTERED
+    Client 6 | CKA=0.5835 | FILTERED
+    Client 9 | CKA=0.5739 | FILTERED
+  [FedCC] Round 1 — 6/10 clients trusted
+  [FedCC] Round 1 — Acc: 0.1762 | Loss: 2.1902
+
+  [FedCC] Round 2 — CKA scores per client:
+    Client 0: 0.6540
+    Client 1: 0.7821
+    Client 2: 0.7869
+    Client 3: 0.7023
+    Client 4: 0.6891
+    Client 5: 0.5957
+    Client 6: 0.7254
+    Client 7: 0.6870
+    Client 8: 0.6659
+    Client 9: 0.7327
+  [FedCC] Cluster sizes: 6 (label 0) | 4 (label 1)  →  trusted = label 0
+    Client 0 | CKA=0.6540 | TRUSTED
+    Client 3 | CKA=0.7023 | TRUSTED
+    Client 4 | CKA=0.6891 | TRUSTED
+    Client 5 | CKA=0.5957 | TRUSTED
+    Client 7 | CKA=0.6870 | TRUSTED
+    Client 8 | CKA=0.6659 | TRUSTED
+    Client 1 | CKA=0.7821 | FILTERED
+    Client 2 | CKA=0.7869 | FILTERED
+    Client 6 | CKA=0.7254 | FILTERED
+    Client 9 | CKA=0.7327 | FILTERED
+  [FedCC] Round 2 — 6/10 clients trusted
+  [FedCC] Round 2 — Acc: 0.3519 | Loss: 1.7855
+
+  [FedCC] Round 3 — CKA scores per client:
+    Client 0: 0.8559
+    Client 1: 0.8244
+    Client 2: 0.8036
+    Client 3: 0.8453
+    Client 4: 0.8751
+    Client 5: 0.7478
+    Client 6: 0.8731
+    Client 7: 0.8544
+    Client 8: 0.8471
+    Client 9: 0.8620
+  [FedCC] Cluster sizes: 8 (label 0) | 2 (label 1)  →  trusted = label 0
+    Client 0 | CKA=0.8559 | TRUSTED
+    Client 1 | CKA=0.8244 | TRUSTED
+    Client 3 | CKA=0.8453 | TRUSTED
+    Client 4 | CKA=0.8751 | TRUSTED
+    Client 6 | CKA=0.8731 | TRUSTED
+    Client 7 | CKA=0.8544 | TRUSTED
+    Client 8 | CKA=0.8471 | TRUSTED
+    Client 9 | CKA=0.8620 | TRUSTED
+    Client 2 | CKA=0.8036 | FILTERED
+    Client 5 | CKA=0.7478 | FILTERED
+  [FedCC] Round 3 — 8/10 clients trusted
+  [FedCC] Round 3 — Acc: 0.3928 | Loss: 1.6142
+
+  [FedCC] Round 4 — CKA scores per client:
+    Client 0: 0.8863
+    Client 1: 0.8958
+    Client 2: 0.8784
+    Client 3: 0.9123
+    Client 4: 0.9269
+    Client 5: 0.8424
+    Client 6: 0.9122
+    Client 7: 0.9248
+    Client 8: 0.9125
+    Client 9: 0.9304
+  [FedCC] Cluster sizes: 3 (label 0) | 7 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.8958 | TRUSTED
+    Client 3 | CKA=0.9123 | TRUSTED
+    Client 4 | CKA=0.9269 | TRUSTED
+    Client 6 | CKA=0.9122 | TRUSTED
+    Client 7 | CKA=0.9248 | TRUSTED
+    Client 8 | CKA=0.9125 | TRUSTED
+    Client 9 | CKA=0.9304 | TRUSTED
+    Client 0 | CKA=0.8863 | FILTERED
+    Client 2 | CKA=0.8784 | FILTERED
+    Client 5 | CKA=0.8424 | FILTERED
+  [FedCC] Round 4 — 7/10 clients trusted
+  [FedCC] Round 4 — Acc: 0.4012 | Loss: 1.5712
+
+  [FedCC] Round 5 — CKA scores per client:
+    Client 0: 0.9056
+    Client 1: 0.9048
+    Client 2: 0.8885
+    Client 3: 0.9370
+    Client 4: 0.9449
+    Client 5: 0.8777
+    Client 6: 0.9399
+    Client 7: 0.9287
+    Client 8: 0.9320
+    Client 9: 0.9561
+  [FedCC] Cluster sizes: 4 (label 0) | 6 (label 1)  →  trusted = label 1
+    Client 3 | CKA=0.9370 | TRUSTED
+    Client 4 | CKA=0.9449 | TRUSTED
+    Client 6 | CKA=0.9399 | TRUSTED
+    Client 7 | CKA=0.9287 | TRUSTED
+    Client 8 | CKA=0.9320 | TRUSTED
+    Client 9 | CKA=0.9561 | TRUSTED
+    Client 0 | CKA=0.9056 | FILTERED
+    Client 1 | CKA=0.9048 | FILTERED
+    Client 2 | CKA=0.8885 | FILTERED
+    Client 5 | CKA=0.8777 | FILTERED
+  [FedCC] Round 5 — 6/10 clients trusted
+  [FedCC] Round 5 — Acc: 0.4316 | Loss: 1.4817
+
+  [FedCC] Round 6 — CKA scores per client:
+    Client 0: 0.9248
+    Client 1: 0.9352
+    Client 2: 0.9244
+    Client 3: 0.9573
+    Client 4: 0.9611
+    Client 5: 0.9054
+    Client 6: 0.9517
+    Client 7: 0.9514
+    Client 8: 0.9564
+    Client 9: 0.9678
+  [FedCC] Cluster sizes: 4 (label 0) | 6 (label 1)  →  trusted = label 1
+    Client 3 | CKA=0.9573 | TRUSTED
+    Client 4 | CKA=0.9611 | TRUSTED
+    Client 6 | CKA=0.9517 | TRUSTED
+    Client 7 | CKA=0.9514 | TRUSTED
+    Client 8 | CKA=0.9564 | TRUSTED
+    Client 9 | CKA=0.9678 | TRUSTED
+    Client 0 | CKA=0.9248 | FILTERED
+    Client 1 | CKA=0.9352 | FILTERED
+    Client 2 | CKA=0.9244 | FILTERED
+    Client 5 | CKA=0.9054 | FILTERED
+  [FedCC] Round 6 — 6/10 clients trusted
+  [FedCC] Round 6 — Acc: 0.4495 | Loss: 1.4284
+
+  [FedCC] Round 7 — CKA scores per client:
+    Client 0: 0.9402
+    Client 1: 0.9451
+    Client 2: 0.9458
+    Client 3: 0.9671
+    Client 4: 0.9709
+    Client 5: 0.9276
+    Client 6: 0.9719
+    Client 7: 0.9630
+    Client 8: 0.9683
+    Client 9: 0.9745
+  [FedCC] Cluster sizes: 4 (label 0) | 6 (label 1)  →  trusted = label 1
+    Client 3 | CKA=0.9671 | TRUSTED
+    Client 4 | CKA=0.9709 | TRUSTED
+    Client 6 | CKA=0.9719 | TRUSTED
+    Client 7 | CKA=0.9630 | TRUSTED
+    Client 8 | CKA=0.9683 | TRUSTED
+    Client 9 | CKA=0.9745 | TRUSTED
+    Client 0 | CKA=0.9402 | FILTERED
+    Client 1 | CKA=0.9451 | FILTERED
+    Client 2 | CKA=0.9458 | FILTERED
+    Client 5 | CKA=0.9276 | FILTERED
+  [FedCC] Round 7 — 6/10 clients trusted
+  [FedCC] Round 7 — Acc: 0.4716 | Loss: 1.3803
+
+  [FedCC] Round 8 — CKA scores per client:
+    Client 0: 0.9551
+    Client 1: 0.9685
+    Client 2: 0.9583
+    Client 3: 0.9759
+    Client 4: 0.9768
+    Client 5: 0.9468
+    Client 6: 0.9747
+    Client 7: 0.9733
+    Client 8: 0.9760
+    Client 9: 0.9829
+  [FedCC] Cluster sizes: 3 (label 0) | 7 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9685 | TRUSTED
+    Client 3 | CKA=0.9759 | TRUSTED
+    Client 4 | CKA=0.9768 | TRUSTED
+    Client 6 | CKA=0.9747 | TRUSTED
+    Client 7 | CKA=0.9733 | TRUSTED
+    Client 8 | CKA=0.9760 | TRUSTED
+    Client 9 | CKA=0.9829 | TRUSTED
+    Client 0 | CKA=0.9551 | FILTERED
+    Client 2 | CKA=0.9583 | FILTERED
+    Client 5 | CKA=0.9468 | FILTERED
+  [FedCC] Round 8 — 7/10 clients trusted
+  [FedCC] Round 8 — Acc: 0.4554 | Loss: 1.4251
+
+  [FedCC] Round 9 — CKA scores per client:
+    Client 0: 0.9591
+    Client 1: 0.9734
+    Client 2: 0.9715
+    Client 3: 0.9775
+    Client 4: 0.9804
+    Client 5: 0.9555
+    Client 6: 0.9803
+    Client 7: 0.9762
+    Client 8: 0.9763
+    Client 9: 0.9839
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9734 | TRUSTED
+    Client 2 | CKA=0.9715 | TRUSTED
+    Client 3 | CKA=0.9775 | TRUSTED
+    Client 4 | CKA=0.9804 | TRUSTED
+    Client 6 | CKA=0.9803 | TRUSTED
+    Client 7 | CKA=0.9762 | TRUSTED
+    Client 8 | CKA=0.9763 | TRUSTED
+    Client 9 | CKA=0.9839 | TRUSTED
+    Client 0 | CKA=0.9591 | FILTERED
+    Client 5 | CKA=0.9555 | FILTERED
+  [FedCC] Round 9 — 8/10 clients trusted
+  [FedCC] Round 9 — Acc: 0.4668 | Loss: 1.4003
+
+  [FedCC] Round 10 — CKA scores per client:
+    Client 0: 0.9636
+    Client 1: 0.9797
+    Client 2: 0.9776
+    Client 3: 0.9818
+    Client 4: 0.9813
+    Client 5: 0.9652
+    Client 6: 0.9821
+    Client 7: 0.9824
+    Client 8: 0.9807
+    Client 9: 0.9867
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9797 | TRUSTED
+    Client 2 | CKA=0.9776 | TRUSTED
+    Client 3 | CKA=0.9818 | TRUSTED
+    Client 4 | CKA=0.9813 | TRUSTED
+    Client 6 | CKA=0.9821 | TRUSTED
+    Client 7 | CKA=0.9824 | TRUSTED
+    Client 8 | CKA=0.9807 | TRUSTED
+    Client 9 | CKA=0.9867 | TRUSTED
+    Client 0 | CKA=0.9636 | FILTERED
+    Client 5 | CKA=0.9652 | FILTERED
+  [FedCC] Round 10 — 8/10 clients trusted
+  [FedCC] Round 10 — Acc: 0.4764 | Loss: 1.3782
+
+  [FedCC] Round 11 — CKA scores per client:
+    Client 0: 0.9685
+    Client 1: 0.9821
+    Client 2: 0.9777
+    Client 3: 0.9843
+    Client 4: 0.9851
+    Client 5: 0.9691
+    Client 6: 0.9854
+    Client 7: 0.9849
+    Client 8: 0.9827
+    Client 9: 0.9892
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9821 | TRUSTED
+    Client 2 | CKA=0.9777 | TRUSTED
+    Client 3 | CKA=0.9843 | TRUSTED
+    Client 4 | CKA=0.9851 | TRUSTED
+    Client 6 | CKA=0.9854 | TRUSTED
+    Client 7 | CKA=0.9849 | TRUSTED
+    Client 8 | CKA=0.9827 | TRUSTED
+    Client 9 | CKA=0.9892 | TRUSTED
+    Client 0 | CKA=0.9685 | FILTERED
+    Client 5 | CKA=0.9691 | FILTERED
+  [FedCC] Round 11 — 8/10 clients trusted
+  [FedCC] Round 11 — Acc: 0.4921 | Loss: 1.3426
+
+  [FedCC] Round 12 — CKA scores per client:
+    Client 0: 0.9741
+    Client 1: 0.9828
+    Client 2: 0.9837
+    Client 3: 0.9853
+    Client 4: 0.9868
+    Client 5: 0.9709
+    Client 6: 0.9886
+    Client 7: 0.9850
+    Client 8: 0.9858
+    Client 9: 0.9912
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9828 | TRUSTED
+    Client 2 | CKA=0.9837 | TRUSTED
+    Client 3 | CKA=0.9853 | TRUSTED
+    Client 4 | CKA=0.9868 | TRUSTED
+    Client 6 | CKA=0.9886 | TRUSTED
+    Client 7 | CKA=0.9850 | TRUSTED
+    Client 8 | CKA=0.9858 | TRUSTED
+    Client 9 | CKA=0.9912 | TRUSTED
+    Client 0 | CKA=0.9741 | FILTERED
+    Client 5 | CKA=0.9709 | FILTERED
+  [FedCC] Round 12 — 8/10 clients trusted
+  [FedCC] Round 12 — Acc: 0.5058 | Loss: 1.3134
+
+  [FedCC] Round 13 — CKA scores per client:
+    Client 0: 0.9760
+    Client 1: 0.9858
+    Client 2: 0.9866
+    Client 3: 0.9869
+    Client 4: 0.9895
+    Client 5: 0.9763
+    Client 6: 0.9902
+    Client 7: 0.9879
+    Client 8: 0.9867
+    Client 9: 0.9915
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9858 | TRUSTED
+    Client 2 | CKA=0.9866 | TRUSTED
+    Client 3 | CKA=0.9869 | TRUSTED
+    Client 4 | CKA=0.9895 | TRUSTED
+    Client 6 | CKA=0.9902 | TRUSTED
+    Client 7 | CKA=0.9879 | TRUSTED
+    Client 8 | CKA=0.9867 | TRUSTED
+    Client 9 | CKA=0.9915 | TRUSTED
+    Client 0 | CKA=0.9760 | FILTERED
+    Client 5 | CKA=0.9763 | FILTERED
+  [FedCC] Round 13 — 8/10 clients trusted
+  [FedCC] Round 13 — Acc: 0.5128 | Loss: 1.2927
+
+  [FedCC] Round 14 — CKA scores per client:
+    Client 0: 0.9797
+    Client 1: 0.9897
+    Client 2: 0.9877
+    Client 3: 0.9894
+    Client 4: 0.9908
+    Client 5: 0.9800
+    Client 6: 0.9915
+    Client 7: 0.9897
+    Client 8: 0.9888
+    Client 9: 0.9931
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9897 | TRUSTED
+    Client 2 | CKA=0.9877 | TRUSTED
+    Client 3 | CKA=0.9894 | TRUSTED
+    Client 4 | CKA=0.9908 | TRUSTED
+    Client 6 | CKA=0.9915 | TRUSTED
+    Client 7 | CKA=0.9897 | TRUSTED
+    Client 8 | CKA=0.9888 | TRUSTED
+    Client 9 | CKA=0.9931 | TRUSTED
+    Client 0 | CKA=0.9797 | FILTERED
+    Client 5 | CKA=0.9800 | FILTERED
+  [FedCC] Round 14 — 8/10 clients trusted
+  [FedCC] Round 14 — Acc: 0.5319 | Loss: 1.2444
+
+  [FedCC] Round 15 — CKA scores per client:
+    Client 0: 0.9824
+    Client 1: 0.9894
+    Client 2: 0.9876
+    Client 3: 0.9912
+    Client 4: 0.9912
+    Client 5: 0.9780
+    Client 6: 0.9923
+    Client 7: 0.9905
+    Client 8: 0.9905
+    Client 9: 0.9938
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9894 | TRUSTED
+    Client 2 | CKA=0.9876 | TRUSTED
+    Client 3 | CKA=0.9912 | TRUSTED
+    Client 4 | CKA=0.9912 | TRUSTED
+    Client 6 | CKA=0.9923 | TRUSTED
+    Client 7 | CKA=0.9905 | TRUSTED
+    Client 8 | CKA=0.9905 | TRUSTED
+    Client 9 | CKA=0.9938 | TRUSTED
+    Client 0 | CKA=0.9824 | FILTERED
+    Client 5 | CKA=0.9780 | FILTERED
+  [FedCC] Round 15 — 8/10 clients trusted
+  [FedCC] Round 15 — Acc: 0.5341 | Loss: 1.2415
+
+  [FedCC] Round 16 — CKA scores per client:
+    Client 0: 0.9833
+    Client 1: 0.9916
+    Client 2: 0.9894
+    Client 3: 0.9908
+    Client 4: 0.9923
+    Client 5: 0.9828
+    Client 6: 0.9937
+    Client 7: 0.9922
+    Client 8: 0.9908
+    Client 9: 0.9945
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9916 | TRUSTED
+    Client 2 | CKA=0.9894 | TRUSTED
+    Client 3 | CKA=0.9908 | TRUSTED
+    Client 4 | CKA=0.9923 | TRUSTED
+    Client 6 | CKA=0.9937 | TRUSTED
+    Client 7 | CKA=0.9922 | TRUSTED
+    Client 8 | CKA=0.9908 | TRUSTED
+    Client 9 | CKA=0.9945 | TRUSTED
+    Client 0 | CKA=0.9833 | FILTERED
+    Client 5 | CKA=0.9828 | FILTERED
+  [FedCC] Round 16 — 8/10 clients trusted
+  [FedCC] Round 16 — Acc: 0.5427 | Loss: 1.2278
+
+  [FedCC] Round 17 — CKA scores per client:
+    Client 0: 0.9868
+    Client 1: 0.9916
+    Client 2: 0.9898
+    Client 3: 0.9923
+    Client 4: 0.9935
+    Client 5: 0.9847
+    Client 6: 0.9943
+    Client 7: 0.9924
+    Client 8: 0.9924
+    Client 9: 0.9952
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9916 | TRUSTED
+    Client 2 | CKA=0.9898 | TRUSTED
+    Client 3 | CKA=0.9923 | TRUSTED
+    Client 4 | CKA=0.9935 | TRUSTED
+    Client 6 | CKA=0.9943 | TRUSTED
+    Client 7 | CKA=0.9924 | TRUSTED
+    Client 8 | CKA=0.9924 | TRUSTED
+    Client 9 | CKA=0.9952 | TRUSTED
+    Client 0 | CKA=0.9868 | FILTERED
+    Client 5 | CKA=0.9847 | FILTERED
+  [FedCC] Round 17 — 8/10 clients trusted
+  [FedCC] Round 17 — Acc: 0.5522 | Loss: 1.1997
+
+  [FedCC] Round 18 — CKA scores per client:
+    Client 0: 0.9880
+    Client 1: 0.9924
+    Client 2: 0.9913
+    Client 3: 0.9929
+    Client 4: 0.9936
+    Client 5: 0.9867
+    Client 6: 0.9950
+    Client 7: 0.9937
+    Client 8: 0.9930
+    Client 9: 0.9959
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9924 | TRUSTED
+    Client 2 | CKA=0.9913 | TRUSTED
+    Client 3 | CKA=0.9929 | TRUSTED
+    Client 4 | CKA=0.9936 | TRUSTED
+    Client 6 | CKA=0.9950 | TRUSTED
+    Client 7 | CKA=0.9937 | TRUSTED
+    Client 8 | CKA=0.9930 | TRUSTED
+    Client 9 | CKA=0.9959 | TRUSTED
+    Client 0 | CKA=0.9880 | FILTERED
+    Client 5 | CKA=0.9867 | FILTERED
+  [FedCC] Round 18 — 8/10 clients trusted
+  [FedCC] Round 18 — Acc: 0.5540 | Loss: 1.1960
+
+  [FedCC] Round 19 — CKA scores per client:
+    Client 0: 0.9890
+    Client 1: 0.9946
+    Client 2: 0.9914
+    Client 3: 0.9933
+    Client 4: 0.9944
+    Client 5: 0.9872
+    Client 6: 0.9954
+    Client 7: 0.9939
+    Client 8: 0.9939
+    Client 9: 0.9961
+  [FedCC] Cluster sizes: 3 (label 0) | 7 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9946 | TRUSTED
+    Client 3 | CKA=0.9933 | TRUSTED
+    Client 4 | CKA=0.9944 | TRUSTED
+    Client 6 | CKA=0.9954 | TRUSTED
+    Client 7 | CKA=0.9939 | TRUSTED
+    Client 8 | CKA=0.9939 | TRUSTED
+    Client 9 | CKA=0.9961 | TRUSTED
+    Client 0 | CKA=0.9890 | FILTERED
+    Client 2 | CKA=0.9914 | FILTERED
+    Client 5 | CKA=0.9872 | FILTERED
+  [FedCC] Round 19 — 7/10 clients trusted
+  [FedCC] Round 19 — Acc: 0.5891 | Loss: 1.1136
+
+  [FedCC] Round 20 — CKA scores per client:
+    Client 0: 0.9900
+    Client 1: 0.9929
+    Client 2: 0.9927
+    Client 3: 0.9942
+    Client 4: 0.9958
+    Client 5: 0.9884
+    Client 6: 0.9960
+    Client 7: 0.9952
+    Client 8: 0.9940
+    Client 9: 0.9965
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9929 | TRUSTED
+    Client 2 | CKA=0.9927 | TRUSTED
+    Client 3 | CKA=0.9942 | TRUSTED
+    Client 4 | CKA=0.9958 | TRUSTED
+    Client 6 | CKA=0.9960 | TRUSTED
+    Client 7 | CKA=0.9952 | TRUSTED
+    Client 8 | CKA=0.9940 | TRUSTED
+    Client 9 | CKA=0.9965 | TRUSTED
+    Client 0 | CKA=0.9900 | FILTERED
+    Client 5 | CKA=0.9884 | FILTERED
+  [FedCC] Round 20 — 8/10 clients trusted
+  [FedCC] Round 20 — Acc: 0.5743 | Loss: 1.1646
+
+  [FedCC] Round 21 — CKA scores per client:
+    Client 0: 0.9911
+    Client 1: 0.9949
+    Client 2: 0.9945
+    Client 3: 0.9945
+    Client 4: 0.9953
+    Client 5: 0.9892
+    Client 6: 0.9964
+    Client 7: 0.9951
+    Client 8: 0.9944
+    Client 9: 0.9970
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9949 | TRUSTED
+    Client 2 | CKA=0.9945 | TRUSTED
+    Client 3 | CKA=0.9945 | TRUSTED
+    Client 4 | CKA=0.9953 | TRUSTED
+    Client 6 | CKA=0.9964 | TRUSTED
+    Client 7 | CKA=0.9951 | TRUSTED
+    Client 8 | CKA=0.9944 | TRUSTED
+    Client 9 | CKA=0.9970 | TRUSTED
+    Client 0 | CKA=0.9911 | FILTERED
+    Client 5 | CKA=0.9892 | FILTERED
+  [FedCC] Round 21 — 8/10 clients trusted
+  [FedCC] Round 21 — Acc: 0.5882 | Loss: 1.1193
+
+  [FedCC] Round 22 — CKA scores per client:
+    Client 0: 0.9919
+    Client 1: 0.9957
+    Client 2: 0.9932
+    Client 3: 0.9950
+    Client 4: 0.9958
+    Client 5: 0.9899
+    Client 6: 0.9968
+    Client 7: 0.9961
+    Client 8: 0.9950
+    Client 9: 0.9968
+  [FedCC] Cluster sizes: 3 (label 0) | 7 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9957 | TRUSTED
+    Client 3 | CKA=0.9950 | TRUSTED
+    Client 4 | CKA=0.9958 | TRUSTED
+    Client 6 | CKA=0.9968 | TRUSTED
+    Client 7 | CKA=0.9961 | TRUSTED
+    Client 8 | CKA=0.9950 | TRUSTED
+    Client 9 | CKA=0.9968 | TRUSTED
+    Client 0 | CKA=0.9919 | FILTERED
+    Client 2 | CKA=0.9932 | FILTERED
+    Client 5 | CKA=0.9899 | FILTERED
+  [FedCC] Round 22 — 7/10 clients trusted
+  [FedCC] Round 22 — Acc: 0.6078 | Loss: 1.0671
+
+  [FedCC] Round 23 — CKA scores per client:
+    Client 0: 0.9930
+    Client 1: 0.9953
+    Client 2: 0.9939
+    Client 3: 0.9955
+    Client 4: 0.9965
+    Client 5: 0.9911
+    Client 6: 0.9970
+    Client 7: 0.9962
+    Client 8: 0.9958
+    Client 9: 0.9974
+  [FedCC] Cluster sizes: 3 (label 0) | 7 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9953 | TRUSTED
+    Client 3 | CKA=0.9955 | TRUSTED
+    Client 4 | CKA=0.9965 | TRUSTED
+    Client 6 | CKA=0.9970 | TRUSTED
+    Client 7 | CKA=0.9962 | TRUSTED
+    Client 8 | CKA=0.9958 | TRUSTED
+    Client 9 | CKA=0.9974 | TRUSTED
+    Client 0 | CKA=0.9930 | FILTERED
+    Client 2 | CKA=0.9939 | FILTERED
+    Client 5 | CKA=0.9911 | FILTERED
+  [FedCC] Round 23 — 7/10 clients trusted
+  [FedCC] Round 23 — Acc: 0.6085 | Loss: 1.0715
+
+  [FedCC] Round 24 — CKA scores per client:
+    Client 0: 0.9929
+    Client 1: 0.9956
+    Client 2: 0.9947
+    Client 3: 0.9956
+    Client 4: 0.9969
+    Client 5: 0.9923
+    Client 6: 0.9977
+    Client 7: 0.9969
+    Client 8: 0.9958
+    Client 9: 0.9974
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9956 | TRUSTED
+    Client 2 | CKA=0.9947 | TRUSTED
+    Client 3 | CKA=0.9956 | TRUSTED
+    Client 4 | CKA=0.9969 | TRUSTED
+    Client 6 | CKA=0.9977 | TRUSTED
+    Client 7 | CKA=0.9969 | TRUSTED
+    Client 8 | CKA=0.9958 | TRUSTED
+    Client 9 | CKA=0.9974 | TRUSTED
+    Client 0 | CKA=0.9929 | FILTERED
+    Client 5 | CKA=0.9923 | FILTERED
+  [FedCC] Round 24 — 8/10 clients trusted
+  [FedCC] Round 24 — Acc: 0.5974 | Loss: 1.1089
+
+  [FedCC] Round 25 — CKA scores per client:
+    Client 0: 0.9933
+    Client 1: 0.9958
+    Client 2: 0.9963
+    Client 3: 0.9960
+    Client 4: 0.9966
+    Client 5: 0.9929
+    Client 6: 0.9975
+    Client 7: 0.9967
+    Client 8: 0.9965
+    Client 9: 0.9979
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9958 | TRUSTED
+    Client 2 | CKA=0.9963 | TRUSTED
+    Client 3 | CKA=0.9960 | TRUSTED
+    Client 4 | CKA=0.9966 | TRUSTED
+    Client 6 | CKA=0.9975 | TRUSTED
+    Client 7 | CKA=0.9967 | TRUSTED
+    Client 8 | CKA=0.9965 | TRUSTED
+    Client 9 | CKA=0.9979 | TRUSTED
+    Client 0 | CKA=0.9933 | FILTERED
+    Client 5 | CKA=0.9929 | FILTERED
+  [FedCC] Round 25 — 8/10 clients trusted
+  [FedCC] Round 25 — Acc: 0.6024 | Loss: 1.0886
+
+  [FedCC] Round 26 — CKA scores per client:
+    Client 0: 0.9943
+    Client 1: 0.9958
+    Client 2: 0.9952
+    Client 3: 0.9961
+    Client 4: 0.9969
+    Client 5: 0.9925
+    Client 6: 0.9979
+    Client 7: 0.9968
+    Client 8: 0.9964
+    Client 9: 0.9978
+  [FedCC] Cluster sizes: 3 (label 0) | 7 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9958 | TRUSTED
+    Client 3 | CKA=0.9961 | TRUSTED
+    Client 4 | CKA=0.9969 | TRUSTED
+    Client 6 | CKA=0.9979 | TRUSTED
+    Client 7 | CKA=0.9968 | TRUSTED
+    Client 8 | CKA=0.9964 | TRUSTED
+    Client 9 | CKA=0.9978 | TRUSTED
+    Client 0 | CKA=0.9943 | FILTERED
+    Client 2 | CKA=0.9952 | FILTERED
+    Client 5 | CKA=0.9925 | FILTERED
+  [FedCC] Round 26 — 7/10 clients trusted
+  [FedCC] Round 26 — Acc: 0.6216 | Loss: 1.0340
+
+  [FedCC] Round 27 — CKA scores per client:
+    Client 0: 0.9942
+    Client 1: 0.9958
+    Client 2: 0.9962
+    Client 3: 0.9963
+    Client 4: 0.9975
+    Client 5: 0.9928
+    Client 6: 0.9979
+    Client 7: 0.9971
+    Client 8: 0.9968
+    Client 9: 0.9979
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9958 | TRUSTED
+    Client 2 | CKA=0.9962 | TRUSTED
+    Client 3 | CKA=0.9963 | TRUSTED
+    Client 4 | CKA=0.9975 | TRUSTED
+    Client 6 | CKA=0.9979 | TRUSTED
+    Client 7 | CKA=0.9971 | TRUSTED
+    Client 8 | CKA=0.9968 | TRUSTED
+    Client 9 | CKA=0.9979 | TRUSTED
+    Client 0 | CKA=0.9942 | FILTERED
+    Client 5 | CKA=0.9928 | FILTERED
+  [FedCC] Round 27 — 8/10 clients trusted
+  [FedCC] Round 27 — Acc: 0.6083 | Loss: 1.0838
+
+  [FedCC] Round 28 — CKA scores per client:
+    Client 0: 0.9946
+    Client 1: 0.9972
+    Client 2: 0.9963
+    Client 3: 0.9970
+    Client 4: 0.9973
+    Client 5: 0.9939
+    Client 6: 0.9981
+    Client 7: 0.9973
+    Client 8: 0.9970
+    Client 9: 0.9983
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9972 | TRUSTED
+    Client 2 | CKA=0.9963 | TRUSTED
+    Client 3 | CKA=0.9970 | TRUSTED
+    Client 4 | CKA=0.9973 | TRUSTED
+    Client 6 | CKA=0.9981 | TRUSTED
+    Client 7 | CKA=0.9973 | TRUSTED
+    Client 8 | CKA=0.9970 | TRUSTED
+    Client 9 | CKA=0.9983 | TRUSTED
+    Client 0 | CKA=0.9946 | FILTERED
+    Client 5 | CKA=0.9939 | FILTERED
+  [FedCC] Round 28 — 8/10 clients trusted
+  [FedCC] Round 28 — Acc: 0.6146 | Loss: 1.0709
+
+  [FedCC] Round 29 — CKA scores per client:
+    Client 0: 0.9952
+    Client 1: 0.9969
+    Client 2: 0.9973
+    Client 3: 0.9970
+    Client 4: 0.9974
+    Client 5: 0.9942
+    Client 6: 0.9981
+    Client 7: 0.9978
+    Client 8: 0.9972
+    Client 9: 0.9982
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9969 | TRUSTED
+    Client 2 | CKA=0.9973 | TRUSTED
+    Client 3 | CKA=0.9970 | TRUSTED
+    Client 4 | CKA=0.9974 | TRUSTED
+    Client 6 | CKA=0.9981 | TRUSTED
+    Client 7 | CKA=0.9978 | TRUSTED
+    Client 8 | CKA=0.9972 | TRUSTED
+    Client 9 | CKA=0.9982 | TRUSTED
+    Client 0 | CKA=0.9952 | FILTERED
+    Client 5 | CKA=0.9942 | FILTERED
+  [FedCC] Round 29 — 8/10 clients trusted
+  [FedCC] Round 29 — Acc: 0.6237 | Loss: 1.0453
+
+  [FedCC] Round 30 — CKA scores per client:
+    Client 0: 0.9955
+    Client 1: 0.9971
+    Client 2: 0.9971
+    Client 3: 0.9972
+    Client 4: 0.9976
+    Client 5: 0.9941
+    Client 6: 0.9982
+    Client 7: 0.9977
+    Client 8: 0.9974
+    Client 9: 0.9984
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9971 | TRUSTED
+    Client 2 | CKA=0.9971 | TRUSTED
+    Client 3 | CKA=0.9972 | TRUSTED
+    Client 4 | CKA=0.9976 | TRUSTED
+    Client 6 | CKA=0.9982 | TRUSTED
+    Client 7 | CKA=0.9977 | TRUSTED
+    Client 8 | CKA=0.9974 | TRUSTED
+    Client 9 | CKA=0.9984 | TRUSTED
+    Client 0 | CKA=0.9955 | FILTERED
+    Client 5 | CKA=0.9941 | FILTERED
+  [FedCC] Round 30 — 8/10 clients trusted
+  [FedCC] Round 30 — Acc: 0.6277 | Loss: 1.0297
+
+  [FedCC] Round 31 — CKA scores per client:
+    Client 0: 0.9959
+    Client 1: 0.9972
+    Client 2: 0.9966
+    Client 3: 0.9973
+    Client 4: 0.9978
+    Client 5: 0.9952
+    Client 6: 0.9984
+    Client 7: 0.9978
+    Client 8: 0.9975
+    Client 9: 0.9986
+  [FedCC] Cluster sizes: 7 (label 0) | 3 (label 1)  →  trusted = label 0
+    Client 1 | CKA=0.9972 | TRUSTED
+    Client 3 | CKA=0.9973 | TRUSTED
+    Client 4 | CKA=0.9978 | TRUSTED
+    Client 6 | CKA=0.9984 | TRUSTED
+    Client 7 | CKA=0.9978 | TRUSTED
+    Client 8 | CKA=0.9975 | TRUSTED
+    Client 9 | CKA=0.9986 | TRUSTED
+    Client 0 | CKA=0.9959 | FILTERED
+    Client 2 | CKA=0.9966 | FILTERED
+    Client 5 | CKA=0.9952 | FILTERED
+  [FedCC] Round 31 — 7/10 clients trusted
+  [FedCC] Round 31 — Acc: 0.6500 | Loss: 0.9795
+
+  [FedCC] Round 32 — CKA scores per client:
+    Client 0: 0.9961
+    Client 1: 0.9973
+    Client 2: 0.9967
+    Client 3: 0.9975
+    Client 4: 0.9980
+    Client 5: 0.9946
+    Client 6: 0.9985
+    Client 7: 0.9981
+    Client 8: 0.9977
+    Client 9: 0.9985
+  [FedCC] Cluster sizes: 3 (label 0) | 7 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9973 | TRUSTED
+    Client 3 | CKA=0.9975 | TRUSTED
+    Client 4 | CKA=0.9980 | TRUSTED
+    Client 6 | CKA=0.9985 | TRUSTED
+    Client 7 | CKA=0.9981 | TRUSTED
+    Client 8 | CKA=0.9977 | TRUSTED
+    Client 9 | CKA=0.9985 | TRUSTED
+    Client 0 | CKA=0.9961 | FILTERED
+    Client 2 | CKA=0.9967 | FILTERED
+    Client 5 | CKA=0.9946 | FILTERED
+  [FedCC] Round 32 — 7/10 clients trusted
+  [FedCC] Round 32 — Acc: 0.6415 | Loss: 1.0024
+
+  [FedCC] Round 33 — CKA scores per client:
+    Client 0: 0.9962
+    Client 1: 0.9976
+    Client 2: 0.9975
+    Client 3: 0.9976
+    Client 4: 0.9981
+    Client 5: 0.9954
+    Client 6: 0.9987
+    Client 7: 0.9981
+    Client 8: 0.9978
+    Client 9: 0.9986
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9976 | TRUSTED
+    Client 2 | CKA=0.9975 | TRUSTED
+    Client 3 | CKA=0.9976 | TRUSTED
+    Client 4 | CKA=0.9981 | TRUSTED
+    Client 6 | CKA=0.9987 | TRUSTED
+    Client 7 | CKA=0.9981 | TRUSTED
+    Client 8 | CKA=0.9978 | TRUSTED
+    Client 9 | CKA=0.9986 | TRUSTED
+    Client 0 | CKA=0.9962 | FILTERED
+    Client 5 | CKA=0.9954 | FILTERED
+  [FedCC] Round 33 — 8/10 clients trusted
+  [FedCC] Round 33 — Acc: 0.6264 | Loss: 1.0507
+
+  [FedCC] Round 34 — CKA scores per client:
+    Client 0: 0.9965
+    Client 1: 0.9976
+    Client 2: 0.9975
+    Client 3: 0.9975
+    Client 4: 0.9981
+    Client 5: 0.9956
+    Client 6: 0.9986
+    Client 7: 0.9983
+    Client 8: 0.9978
+    Client 9: 0.9988
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9976 | TRUSTED
+    Client 2 | CKA=0.9975 | TRUSTED
+    Client 3 | CKA=0.9975 | TRUSTED
+    Client 4 | CKA=0.9981 | TRUSTED
+    Client 6 | CKA=0.9986 | TRUSTED
+    Client 7 | CKA=0.9983 | TRUSTED
+    Client 8 | CKA=0.9978 | TRUSTED
+    Client 9 | CKA=0.9988 | TRUSTED
+    Client 0 | CKA=0.9965 | FILTERED
+    Client 5 | CKA=0.9956 | FILTERED
+  [FedCC] Round 34 — 8/10 clients trusted
+  [FedCC] Round 34 — Acc: 0.6375 | Loss: 1.0159
+
+  [FedCC] Round 35 — CKA scores per client:
+    Client 0: 0.9965
+    Client 1: 0.9979
+    Client 2: 0.9974
+    Client 3: 0.9978
+    Client 4: 0.9981
+    Client 5: 0.9957
+    Client 6: 0.9987
+    Client 7: 0.9982
+    Client 8: 0.9979
+    Client 9: 0.9988
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9979 | TRUSTED
+    Client 2 | CKA=0.9974 | TRUSTED
+    Client 3 | CKA=0.9978 | TRUSTED
+    Client 4 | CKA=0.9981 | TRUSTED
+    Client 6 | CKA=0.9987 | TRUSTED
+    Client 7 | CKA=0.9982 | TRUSTED
+    Client 8 | CKA=0.9979 | TRUSTED
+    Client 9 | CKA=0.9988 | TRUSTED
+    Client 0 | CKA=0.9965 | FILTERED
+    Client 5 | CKA=0.9957 | FILTERED
+  [FedCC] Round 35 — 8/10 clients trusted
+  [FedCC] Round 35 — Acc: 0.6296 | Loss: 1.0612
+
+  [FedCC] Round 36 — CKA scores per client:
+    Client 0: 0.9966
+    Client 1: 0.9982
+    Client 2: 0.9984
+    Client 3: 0.9979
+    Client 4: 0.9982
+    Client 5: 0.9961
+    Client 6: 0.9987
+    Client 7: 0.9984
+    Client 8: 0.9982
+    Client 9: 0.9988
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9982 | TRUSTED
+    Client 2 | CKA=0.9984 | TRUSTED
+    Client 3 | CKA=0.9979 | TRUSTED
+    Client 4 | CKA=0.9982 | TRUSTED
+    Client 6 | CKA=0.9987 | TRUSTED
+    Client 7 | CKA=0.9984 | TRUSTED
+    Client 8 | CKA=0.9982 | TRUSTED
+    Client 9 | CKA=0.9988 | TRUSTED
+    Client 0 | CKA=0.9966 | FILTERED
+    Client 5 | CKA=0.9961 | FILTERED
+  [FedCC] Round 36 — 8/10 clients trusted
+  [FedCC] Round 36 — Acc: 0.6427 | Loss: 1.0184
+
+  [FedCC] Round 37 — CKA scores per client:
+    Client 0: 0.9970
+    Client 1: 0.9979
+    Client 2: 0.9977
+    Client 3: 0.9980
+    Client 4: 0.9984
+    Client 5: 0.9961
+    Client 6: 0.9987
+    Client 7: 0.9984
+    Client 8: 0.9980
+    Client 9: 0.9989
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9979 | TRUSTED
+    Client 2 | CKA=0.9977 | TRUSTED
+    Client 3 | CKA=0.9980 | TRUSTED
+    Client 4 | CKA=0.9984 | TRUSTED
+    Client 6 | CKA=0.9987 | TRUSTED
+    Client 7 | CKA=0.9984 | TRUSTED
+    Client 8 | CKA=0.9980 | TRUSTED
+    Client 9 | CKA=0.9989 | TRUSTED
+    Client 0 | CKA=0.9970 | FILTERED
+    Client 5 | CKA=0.9961 | FILTERED
+  [FedCC] Round 37 — 8/10 clients trusted
+  [FedCC] Round 37 — Acc: 0.6407 | Loss: 1.0479
+
+  [FedCC] Round 38 — CKA scores per client:
+    Client 0: 0.9970
+    Client 1: 0.9979
+    Client 2: 0.9976
+    Client 3: 0.9982
+    Client 4: 0.9984
+    Client 5: 0.9958
+    Client 6: 0.9988
+    Client 7: 0.9985
+    Client 8: 0.9981
+    Client 9: 0.9989
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9979 | TRUSTED
+    Client 2 | CKA=0.9976 | TRUSTED
+    Client 3 | CKA=0.9982 | TRUSTED
+    Client 4 | CKA=0.9984 | TRUSTED
+    Client 6 | CKA=0.9988 | TRUSTED
+    Client 7 | CKA=0.9985 | TRUSTED
+    Client 8 | CKA=0.9981 | TRUSTED
+    Client 9 | CKA=0.9989 | TRUSTED
+    Client 0 | CKA=0.9970 | FILTERED
+    Client 5 | CKA=0.9958 | FILTERED
+  [FedCC] Round 38 — 8/10 clients trusted
+  [FedCC] Round 38 — Acc: 0.6408 | Loss: 1.0387
+
+  [FedCC] Round 39 — CKA scores per client:
+    Client 0: 0.9972
+    Client 1: 0.9981
+    Client 2: 0.9982
+    Client 3: 0.9982
+    Client 4: 0.9985
+    Client 5: 0.9965
+    Client 6: 0.9989
+    Client 7: 0.9983
+    Client 8: 0.9983
+    Client 9: 0.9989
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9981 | TRUSTED
+    Client 2 | CKA=0.9982 | TRUSTED
+    Client 3 | CKA=0.9982 | TRUSTED
+    Client 4 | CKA=0.9985 | TRUSTED
+    Client 6 | CKA=0.9989 | TRUSTED
+    Client 7 | CKA=0.9983 | TRUSTED
+    Client 8 | CKA=0.9983 | TRUSTED
+    Client 9 | CKA=0.9989 | TRUSTED
+    Client 0 | CKA=0.9972 | FILTERED
+    Client 5 | CKA=0.9965 | FILTERED
+  [FedCC] Round 39 — 8/10 clients trusted
+  [FedCC] Round 39 — Acc: 0.6446 | Loss: 1.0336
+
+  [FedCC] Round 40 — CKA scores per client:
+    Client 0: 0.9971
+    Client 1: 0.9981
+    Client 2: 0.9981
+    Client 3: 0.9981
+    Client 4: 0.9986
+    Client 5: 0.9966
+    Client 6: 0.9989
+    Client 7: 0.9987
+    Client 8: 0.9983
+    Client 9: 0.9990
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9981 | TRUSTED
+    Client 2 | CKA=0.9981 | TRUSTED
+    Client 3 | CKA=0.9981 | TRUSTED
+    Client 4 | CKA=0.9986 | TRUSTED
+    Client 6 | CKA=0.9989 | TRUSTED
+    Client 7 | CKA=0.9987 | TRUSTED
+    Client 8 | CKA=0.9983 | TRUSTED
+    Client 9 | CKA=0.9990 | TRUSTED
+    Client 0 | CKA=0.9971 | FILTERED
+    Client 5 | CKA=0.9966 | FILTERED
+  [FedCC] Round 40 — 8/10 clients trusted
+  [FedCC] Round 40 — Acc: 0.6570 | Loss: 1.0064
+
+  [FedCC] Round 41 — CKA scores per client:
+    Client 0: 0.9973
+    Client 1: 0.9982
+    Client 2: 0.9981
+    Client 3: 0.9981
+    Client 4: 0.9985
+    Client 5: 0.9965
+    Client 6: 0.9989
+    Client 7: 0.9987
+    Client 8: 0.9984
+    Client 9: 0.9990
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9982 | TRUSTED
+    Client 2 | CKA=0.9981 | TRUSTED
+    Client 3 | CKA=0.9981 | TRUSTED
+    Client 4 | CKA=0.9985 | TRUSTED
+    Client 6 | CKA=0.9989 | TRUSTED
+    Client 7 | CKA=0.9987 | TRUSTED
+    Client 8 | CKA=0.9984 | TRUSTED
+    Client 9 | CKA=0.9990 | TRUSTED
+    Client 0 | CKA=0.9973 | FILTERED
+    Client 5 | CKA=0.9965 | FILTERED
+  [FedCC] Round 41 — 8/10 clients trusted
+  [FedCC] Round 41 — Acc: 0.6399 | Loss: 1.0437
+
+  [FedCC] Round 42 — CKA scores per client:
+    Client 0: 0.9972
+    Client 1: 0.9979
+    Client 2: 0.9981
+    Client 3: 0.9983
+    Client 4: 0.9986
+    Client 5: 0.9968
+    Client 6: 0.9989
+    Client 7: 0.9987
+    Client 8: 0.9985
+    Client 9: 0.9990
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9979 | TRUSTED
+    Client 2 | CKA=0.9981 | TRUSTED
+    Client 3 | CKA=0.9983 | TRUSTED
+    Client 4 | CKA=0.9986 | TRUSTED
+    Client 6 | CKA=0.9989 | TRUSTED
+    Client 7 | CKA=0.9987 | TRUSTED
+    Client 8 | CKA=0.9985 | TRUSTED
+    Client 9 | CKA=0.9990 | TRUSTED
+    Client 0 | CKA=0.9972 | FILTERED
+    Client 5 | CKA=0.9968 | FILTERED
+  [FedCC] Round 42 — 8/10 clients trusted
+  [FedCC] Round 42 — Acc: 0.6496 | Loss: 1.0446
+
+  [FedCC] Round 43 — CKA scores per client:
+    Client 0: 0.9975
+    Client 1: 0.9981
+    Client 2: 0.9982
+    Client 3: 0.9983
+    Client 4: 0.9987
+    Client 5: 0.9967
+    Client 6: 0.9991
+    Client 7: 0.9986
+    Client 8: 0.9985
+    Client 9: 0.9991
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9981 | TRUSTED
+    Client 2 | CKA=0.9982 | TRUSTED
+    Client 3 | CKA=0.9983 | TRUSTED
+    Client 4 | CKA=0.9987 | TRUSTED
+    Client 6 | CKA=0.9991 | TRUSTED
+    Client 7 | CKA=0.9986 | TRUSTED
+    Client 8 | CKA=0.9985 | TRUSTED
+    Client 9 | CKA=0.9991 | TRUSTED
+    Client 0 | CKA=0.9975 | FILTERED
+    Client 5 | CKA=0.9967 | FILTERED
+  [FedCC] Round 43 — 8/10 clients trusted
+  [FedCC] Round 43 — Acc: 0.6530 | Loss: 1.0354
+
+  [FedCC] Round 44 — CKA scores per client:
+    Client 0: 0.9975
+    Client 1: 0.9981
+    Client 2: 0.9982
+    Client 3: 0.9984
+    Client 4: 0.9987
+    Client 5: 0.9973
+    Client 6: 0.9990
+    Client 7: 0.9988
+    Client 8: 0.9985
+    Client 9: 0.9991
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9981 | TRUSTED
+    Client 2 | CKA=0.9982 | TRUSTED
+    Client 3 | CKA=0.9984 | TRUSTED
+    Client 4 | CKA=0.9987 | TRUSTED
+    Client 6 | CKA=0.9990 | TRUSTED
+    Client 7 | CKA=0.9988 | TRUSTED
+    Client 8 | CKA=0.9985 | TRUSTED
+    Client 9 | CKA=0.9991 | TRUSTED
+    Client 0 | CKA=0.9975 | FILTERED
+    Client 5 | CKA=0.9973 | FILTERED
+  [FedCC] Round 44 — 8/10 clients trusted
+  [FedCC] Round 44 — Acc: 0.6497 | Loss: 1.0508
+
+  [FedCC] Round 45 — CKA scores per client:
+    Client 0: 0.9975
+    Client 1: 0.9985
+    Client 2: 0.9984
+    Client 3: 0.9985
+    Client 4: 0.9988
+    Client 5: 0.9965
+    Client 6: 0.9990
+    Client 7: 0.9987
+    Client 8: 0.9986
+    Client 9: 0.9991
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9985 | TRUSTED
+    Client 2 | CKA=0.9984 | TRUSTED
+    Client 3 | CKA=0.9985 | TRUSTED
+    Client 4 | CKA=0.9988 | TRUSTED
+    Client 6 | CKA=0.9990 | TRUSTED
+    Client 7 | CKA=0.9987 | TRUSTED
+    Client 8 | CKA=0.9986 | TRUSTED
+    Client 9 | CKA=0.9991 | TRUSTED
+    Client 0 | CKA=0.9975 | FILTERED
+    Client 5 | CKA=0.9965 | FILTERED
+  [FedCC] Round 45 — 8/10 clients trusted
+  [FedCC] Round 45 — Acc: 0.6576 | Loss: 1.0347
+
+  [FedCC] Round 46 — CKA scores per client:
+    Client 0: 0.9977
+    Client 1: 0.9984
+    Client 2: 0.9984
+    Client 3: 0.9985
+    Client 4: 0.9987
+    Client 5: 0.9970
+    Client 6: 0.9991
+    Client 7: 0.9989
+    Client 8: 0.9987
+    Client 9: 0.9991
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9984 | TRUSTED
+    Client 2 | CKA=0.9984 | TRUSTED
+    Client 3 | CKA=0.9985 | TRUSTED
+    Client 4 | CKA=0.9987 | TRUSTED
+    Client 6 | CKA=0.9991 | TRUSTED
+    Client 7 | CKA=0.9989 | TRUSTED
+    Client 8 | CKA=0.9987 | TRUSTED
+    Client 9 | CKA=0.9991 | TRUSTED
+    Client 0 | CKA=0.9977 | FILTERED
+    Client 5 | CKA=0.9970 | FILTERED
+  [FedCC] Round 46 — 8/10 clients trusted
+  [FedCC] Round 46 — Acc: 0.6559 | Loss: 1.0329
+
+  [FedCC] Round 47 — CKA scores per client:
+    Client 0: 0.9978
+    Client 1: 0.9984
+    Client 2: 0.9983
+    Client 3: 0.9985
+    Client 4: 0.9989
+    Client 5: 0.9971
+    Client 6: 0.9991
+    Client 7: 0.9988
+    Client 8: 0.9986
+    Client 9: 0.9992
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9984 | TRUSTED
+    Client 2 | CKA=0.9983 | TRUSTED
+    Client 3 | CKA=0.9985 | TRUSTED
+    Client 4 | CKA=0.9989 | TRUSTED
+    Client 6 | CKA=0.9991 | TRUSTED
+    Client 7 | CKA=0.9988 | TRUSTED
+    Client 8 | CKA=0.9986 | TRUSTED
+    Client 9 | CKA=0.9992 | TRUSTED
+    Client 0 | CKA=0.9978 | FILTERED
+    Client 5 | CKA=0.9971 | FILTERED
+  [FedCC] Round 47 — 8/10 clients trusted
+  [FedCC] Round 47 — Acc: 0.6599 | Loss: 1.0278
+
+  [FedCC] Round 48 — CKA scores per client:
+    Client 0: 0.9980
+    Client 1: 0.9984
+    Client 2: 0.9984
+    Client 3: 0.9986
+    Client 4: 0.9989
+    Client 5: 0.9971
+    Client 6: 0.9991
+    Client 7: 0.9990
+    Client 8: 0.9988
+    Client 9: 0.9992
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9984 | TRUSTED
+    Client 2 | CKA=0.9984 | TRUSTED
+    Client 3 | CKA=0.9986 | TRUSTED
+    Client 4 | CKA=0.9989 | TRUSTED
+    Client 6 | CKA=0.9991 | TRUSTED
+    Client 7 | CKA=0.9990 | TRUSTED
+    Client 8 | CKA=0.9988 | TRUSTED
+    Client 9 | CKA=0.9992 | TRUSTED
+    Client 0 | CKA=0.9980 | FILTERED
+    Client 5 | CKA=0.9971 | FILTERED
+  [FedCC] Round 48 — 8/10 clients trusted
+  [FedCC] Round 48 — Acc: 0.6537 | Loss: 1.0456
+
+  [FedCC] Round 49 — CKA scores per client:
+    Client 0: 0.9979
+    Client 1: 0.9986
+    Client 2: 0.9986
+    Client 3: 0.9988
+    Client 4: 0.9989
+    Client 5: 0.9972
+    Client 6: 0.9992
+    Client 7: 0.9989
+    Client 8: 0.9987
+    Client 9: 0.9992
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9986 | TRUSTED
+    Client 2 | CKA=0.9986 | TRUSTED
+    Client 3 | CKA=0.9988 | TRUSTED
+    Client 4 | CKA=0.9989 | TRUSTED
+    Client 6 | CKA=0.9992 | TRUSTED
+    Client 7 | CKA=0.9989 | TRUSTED
+    Client 8 | CKA=0.9987 | TRUSTED
+    Client 9 | CKA=0.9992 | TRUSTED
+    Client 0 | CKA=0.9979 | FILTERED
+    Client 5 | CKA=0.9972 | FILTERED
+  [FedCC] Round 49 — 8/10 clients trusted
+  [FedCC] Round 49 — Acc: 0.6622 | Loss: 1.0376
+
+  [FedCC] Round 50 — CKA scores per client:
+    Client 0: 0.9979
+    Client 1: 0.9986
+    Client 2: 0.9983
+    Client 3: 0.9988
+    Client 4: 0.9990
+    Client 5: 0.9972
+    Client 6: 0.9992
+    Client 7: 0.9990
+    Client 8: 0.9989
+    Client 9: 0.9992
+  [FedCC] Cluster sizes: 2 (label 0) | 8 (label 1)  →  trusted = label 1
+    Client 1 | CKA=0.9986 | TRUSTED
+    Client 2 | CKA=0.9983 | TRUSTED
+    Client 3 | CKA=0.9988 | TRUSTED
+    Client 4 | CKA=0.9990 | TRUSTED
+    Client 6 | CKA=0.9992 | TRUSTED
+    Client 7 | CKA=0.9990 | TRUSTED
+    Client 8 | CKA=0.9989 | TRUSTED
+    Client 9 | CKA=0.9992 | TRUSTED
+    Client 0 | CKA=0.9979 | FILTERED
+    Client 5 | CKA=0.9972 | FILTERED
+  [FedCC] Round 50 — 8/10 clients trusted
+  [FedCC] Round 50 — Acc: 0.6568 | Loss: 1.0530
+
+All simulations complete!
