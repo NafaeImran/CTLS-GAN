@@ -1,0 +1,564 @@
+
+============================================================
+ Test 1  - Non-iid | Strategy: FedAvg | Mode: non-iid
+============================================================
+  [Client 0]: 7505 samples
+  [Client 1]: 3766 samples
+  [Client 2]: 2587 samples
+  [Client 3]: 5760 samples
+  [Client 4]: 5691 samples
+  [Client 5]: 7494 samples
+  [Client 6]: 2628 samples
+  [Client 7]: 4624 samples
+  [Client 8]: 5996 samples
+  [Client 9]: 3949 samples
+  [FedAvg] Round 1 — Acc: 0.2828 | Loss: 2.1236
+  [FedAvg] Round 2 — Acc: 0.3952 | Loss: 1.6878
+  [FedAvg] Round 3 — Acc: 0.4391 | Loss: 1.5513
+  [FedAvg] Round 4 — Acc: 0.4820 | Loss: 1.4485
+  [FedAvg] Round 5 — Acc: 0.5039 | Loss: 1.3755
+  [FedAvg] Round 6 — Acc: 0.5363 | Loss: 1.3045
+  [FedAvg] Round 7 — Acc: 0.5524 | Loss: 1.2474
+  [FedAvg] Round 8 — Acc: 0.5730 | Loss: 1.1988
+  [FedAvg] Round 9 — Acc: 0.5875 | Loss: 1.1572
+  [FedAvg] Round 10 — Acc: 0.5999 | Loss: 1.1293
+  [FedAvg] Round 11 — Acc: 0.6103 | Loss: 1.0916
+  [FedAvg] Round 12 — Acc: 0.6243 | Loss: 1.0482
+  [FedAvg] Round 13 — Acc: 0.6312 | Loss: 1.0333
+  [FedAvg] Round 14 — Acc: 0.6385 | Loss: 1.0026
+  [FedAvg] Round 15 — Acc: 0.6496 | Loss: 0.9725
+  [FedAvg] Round 16 — Acc: 0.6561 | Loss: 0.9611
+  [FedAvg] Round 17 — Acc: 0.6638 | Loss: 0.9469
+  [FedAvg] Round 18 — Acc: 0.6743 | Loss: 0.9174
+  [FedAvg] Round 19 — Acc: 0.6734 | Loss: 0.9081
+  [FedAvg] Round 20 — Acc: 0.6796 | Loss: 0.8980
+  [FedAvg] Round 21 — Acc: 0.6860 | Loss: 0.8822
+  [FedAvg] Round 22 — Acc: 0.6899 | Loss: 0.8762
+  [FedAvg] Round 23 — Acc: 0.6916 | Loss: 0.8777
+  [FedAvg] Round 24 — Acc: 0.6994 | Loss: 0.8534
+  [FedAvg] Round 25 — Acc: 0.7038 | Loss: 0.8517
+  [FedAvg] Round 26 — Acc: 0.7027 | Loss: 0.8477
+  [FedAvg] Round 27 — Acc: 0.7076 | Loss: 0.8441
+  [FedAvg] Round 28 — Acc: 0.7106 | Loss: 0.8395
+  [FedAvg] Round 29 — Acc: 0.7117 | Loss: 0.8327
+  [FedAvg] Round 30 — Acc: 0.7108 | Loss: 0.8425
+  [FedAvg] Round 31 — Acc: 0.7129 | Loss: 0.8396
+  [FedAvg] Round 32 — Acc: 0.7160 | Loss: 0.8362
+  [FedAvg] Round 33 — Acc: 0.7153 | Loss: 0.8378
+  [FedAvg] Round 34 — Acc: 0.7168 | Loss: 0.8429
+  [FedAvg] Round 35 — Acc: 0.7197 | Loss: 0.8433
+  [FedAvg] Round 36 — Acc: 0.7208 | Loss: 0.8508
+  [FedAvg] Round 37 — Acc: 0.7209 | Loss: 0.8551
+  [FedAvg] Round 38 — Acc: 0.7224 | Loss: 0.8610
+  [FedAvg] Round 39 — Acc: 0.7241 | Loss: 0.8672
+  [FedAvg] Round 40 — Acc: 0.7205 | Loss: 0.8703
+  [FedAvg] Round 41 — Acc: 0.7239 | Loss: 0.8862
+  [FedAvg] Round 42 — Acc: 0.7238 | Loss: 0.8848
+  [FedAvg] Round 43 — Acc: 0.7248 | Loss: 0.8906
+  [FedAvg] Round 44 — Acc: 0.7261 | Loss: 0.8945
+  [FedAvg] Round 45 — Acc: 0.7265 | Loss: 0.9060
+  [FedAvg] Round 46 — Acc: 0.7253 | Loss: 0.9177
+  [FedAvg] Round 47 — Acc: 0.7254 | Loss: 0.9267
+  [FedAvg] Round 48 — Acc: 0.7236 | Loss: 0.9351
+  [FedAvg] Round 49 — Acc: 0.7268 | Loss: 0.9406
+  [FedAvg] Round 50 — Acc: 0.7278 | Loss: 0.9641
+
+============================================================
+ Test 1  - Non-iid | Strategy: SignGuard | Mode: non-iid
+============================================================
+  [Client 0]: 7505 samples
+  [Client 1]: 3766 samples
+  [Client 2]: 2587 samples
+  [Client 3]: 5760 samples
+  [Client 4]: 5691 samples
+  [Client 5]: 7494 samples
+  [Client 6]: 2628 samples
+  [Client 7]: 4624 samples
+  [Client 8]: 5996 samples
+  [Client 9]: 3949 samples
+
+  [SignGuard] Round 1 — 5/10 clients trusted
+  [SignGuard] Trusted clients: [1, 4, 5, 7, 8]
+  [SignGuard] Round 1 — Acc: 0.2382 | Loss: 2.1190
+
+  [SignGuard] Round 2 — 6/10 clients trusted
+  [SignGuard] Trusted clients: [0, 1, 4, 6, 7, 9]
+  [SignGuard] Round 2 — Acc: 0.3344 | Loss: 1.7735
+
+  [SignGuard] Round 3 — 5/10 clients trusted
+  [SignGuard] Trusted clients: [3, 4, 6, 7, 9]
+  [SignGuard] Round 3 — Acc: 0.3356 | Loss: 1.7321
+
+  [SignGuard] Round 4 — 6/10 clients trusted
+  [SignGuard] Trusted clients: [1, 2, 4, 5, 8, 9]
+  [SignGuard] Round 4 — Acc: 0.4037 | Loss: 1.5726
+
+  [SignGuard] Round 5 — 5/10 clients trusted
+  [SignGuard] Trusted clients: [1, 4, 6, 7, 8]
+  [SignGuard] Round 5 — Acc: 0.4191 | Loss: 1.5989
+
+  [SignGuard] Round 6 — 7/10 clients trusted
+  [SignGuard] Trusted clients: [1, 2, 4, 5, 6, 7, 9]
+  [SignGuard] Round 6 — Acc: 0.4676 | Loss: 1.4489
+
+  [SignGuard] Round 7 — 7/10 clients trusted
+  [SignGuard] Trusted clients: [1, 2, 3, 4, 6, 7, 8]
+  [SignGuard] Round 7 — Acc: 0.4554 | Loss: 1.4539
+
+  [SignGuard] Round 8 — 8/10 clients trusted
+  [SignGuard] Trusted clients: [1, 2, 4, 5, 6, 7, 8, 9]
+  [SignGuard] Round 8 — Acc: 0.5030 | Loss: 1.3569
+
+  [SignGuard] Round 9 — 6/10 clients trusted
+  [SignGuard] Trusted clients: [1, 2, 4, 6, 7, 9]
+  [SignGuard] Round 9 — Acc: 0.4779 | Loss: 1.4060
+
+  [SignGuard] Round 10 — 7/10 clients trusted
+  [SignGuard] Trusted clients: [2, 4, 5, 6, 7, 8, 9]
+  [SignGuard] Round 10 — Acc: 0.5344 | Loss: 1.2970
+
+  [SignGuard] Round 11 — 5/10 clients trusted
+  [SignGuard] Trusted clients: [0, 2, 3, 4, 6]
+  [SignGuard] Round 11 — Acc: 0.5207 | Loss: 1.2630
+
+  [SignGuard] Round 12 — 7/10 clients trusted
+  [SignGuard] Trusted clients: [0, 1, 3, 4, 6, 7, 8]
+  [SignGuard] Round 12 — Acc: 0.5442 | Loss: 1.2186
+
+  [SignGuard] Round 13 — 7/10 clients trusted
+  [SignGuard] Trusted clients: [1, 2, 3, 4, 5, 6, 9]
+  [SignGuard] Round 13 — Acc: 0.5463 | Loss: 1.2373
+
+  [SignGuard] Round 14 — 8/10 clients trusted
+  [SignGuard] Trusted clients: [1, 2, 3, 4, 5, 6, 7, 9]
+  [SignGuard] Round 14 — Acc: 0.5815 | Loss: 1.1607
+
+  [SignGuard] Round 15 — 8/10 clients trusted
+  [SignGuard] Trusted clients: [0, 1, 2, 5, 6, 7, 8, 9]
+  [SignGuard] Round 15 — Acc: 0.6064 | Loss: 1.0942
+
+  [SignGuard] Round 16 — 7/10 clients trusted
+  [SignGuard] Trusted clients: [1, 2, 3, 4, 6, 7, 8]
+  [SignGuard] Round 16 — Acc: 0.5817 | Loss: 1.1392
+
+  [SignGuard] Round 17 — 8/10 clients trusted
+  [SignGuard] Trusted clients: [0, 1, 2, 3, 4, 7, 8, 9]
+  [SignGuard] Round 17 — Acc: 0.6109 | Loss: 1.0647
+
+  [SignGuard] Round 18 — 6/10 clients trusted
+  [SignGuard] Trusted clients: [0, 4, 6, 7, 8, 9]
+  [SignGuard] Round 18 — Acc: 0.6009 | Loss: 1.1063
+
+  [SignGuard] Round 19 — 7/10 clients trusted
+  [SignGuard] Trusted clients: [1, 2, 3, 4, 5, 6, 7]
+  [SignGuard] Round 19 — Acc: 0.6097 | Loss: 1.0756
+
+  [SignGuard] Round 20 — 6/10 clients trusted
+  [SignGuard] Trusted clients: [3, 4, 5, 6, 8, 9]
+  [SignGuard] Round 20 — Acc: 0.6341 | Loss: 1.0283
+
+  [SignGuard] Round 21 — 6/10 clients trusted
+  [SignGuard] Trusted clients: [1, 4, 6, 7, 8, 9]
+  [SignGuard] Round 21 — Acc: 0.6067 | Loss: 1.0895
+
+  [SignGuard] Round 22 — 7/10 clients trusted
+  [SignGuard] Trusted clients: [1, 2, 3, 4, 7, 8, 9]
+  [SignGuard] Round 22 — Acc: 0.6261 | Loss: 1.0354
+
+  [SignGuard] Round 23 — 7/10 clients trusted
+  [SignGuard] Trusted clients: [0, 1, 4, 6, 7, 8, 9]
+  [SignGuard] Round 23 — Acc: 0.6294 | Loss: 1.0326
+
+  [SignGuard] Round 24 — 8/10 clients trusted
+  [SignGuard] Trusted clients: [0, 1, 3, 4, 6, 7, 8, 9]
+  [SignGuard] Round 24 — Acc: 0.6503 | Loss: 0.9640
+
+  [SignGuard] Round 25 — 9/10 clients trusted
+  [SignGuard] Trusted clients: [0, 1, 2, 3, 4, 6, 7, 8, 9]
+  [SignGuard] Round 25 — Acc: 0.6577 | Loss: 0.9538
+
+  [SignGuard] Round 26 — 8/10 clients trusted
+  [SignGuard] Trusted clients: [0, 1, 2, 3, 4, 6, 8, 9]
+  [SignGuard] Round 26 — Acc: 0.6634 | Loss: 0.9431
+
+  [SignGuard] Round 27 — 6/10 clients trusted
+  [SignGuard] Trusted clients: [0, 4, 5, 6, 8, 9]
+  [SignGuard] Round 27 — Acc: 0.6597 | Loss: 0.9499
+
+  [SignGuard] Round 28 — 7/10 clients trusted
+  [SignGuard] Trusted clients: [0, 3, 4, 6, 7, 8, 9]
+  [SignGuard] Round 28 — Acc: 0.6671 | Loss: 0.9305
+
+  [SignGuard] Round 29 — 6/10 clients trusted
+  [SignGuard] Trusted clients: [0, 2, 3, 6, 7, 8]
+  [SignGuard] Round 29 — Acc: 0.6618 | Loss: 0.9430
+
+  [SignGuard] Round 30 — 7/10 clients trusted
+  [SignGuard] Trusted clients: [1, 3, 4, 5, 6, 7, 9]
+  [SignGuard] Round 30 — Acc: 0.6777 | Loss: 0.9170
+
+  [SignGuard] Round 31 — 5/10 clients trusted
+  [SignGuard] Trusted clients: [1, 2, 3, 6, 7]
+  [SignGuard] Round 31 — Acc: 0.6464 | Loss: 1.0284
+
+  [SignGuard] Round 32 — 6/10 clients trusted
+  [SignGuard] Trusted clients: [1, 2, 3, 6, 8, 9]
+  [SignGuard] Round 32 — Acc: 0.6574 | Loss: 0.9716
+
+  [SignGuard] Round 33 — 7/10 clients trusted
+  [SignGuard] Trusted clients: [1, 2, 4, 6, 7, 8, 9]
+  [SignGuard] Round 33 — Acc: 0.6730 | Loss: 0.9598
+
+  [SignGuard] Round 34 — 5/10 clients trusted
+  [SignGuard] Trusted clients: [1, 6, 7, 8, 9]
+  [SignGuard] Round 34 — Acc: 0.6515 | Loss: 1.0473
+
+  [SignGuard] Round 35 — 6/10 clients trusted
+  [SignGuard] Trusted clients: [1, 2, 3, 4, 6, 7]
+  [SignGuard] Round 35 — Acc: 0.6684 | Loss: 0.9806
+
+  [SignGuard] Round 36 — 6/10 clients trusted
+  [SignGuard] Trusted clients: [2, 3, 4, 5, 6, 7]
+  [SignGuard] Round 36 — Acc: 0.6905 | Loss: 0.9065
+
+  [SignGuard] Round 37 — 5/10 clients trusted
+  [SignGuard] Trusted clients: [0, 2, 6, 7, 8]
+  [SignGuard] Round 37 — Acc: 0.6729 | Loss: 0.9460
+
+  [SignGuard] Round 38 — 7/10 clients trusted
+  [SignGuard] Trusted clients: [0, 2, 3, 6, 7, 8, 9]
+  [SignGuard] Round 38 — Acc: 0.6903 | Loss: 0.9125
+
+  [SignGuard] Round 39 — 8/10 clients trusted
+  [SignGuard] Trusted clients: [0, 1, 2, 3, 4, 6, 8, 9]
+  [SignGuard] Round 39 — Acc: 0.7040 | Loss: 0.8610
+
+  [SignGuard] Round 40 — 7/10 clients trusted
+  [SignGuard] Trusted clients: [0, 3, 4, 5, 6, 7, 9]
+  [SignGuard] Round 40 — Acc: 0.7059 | Loss: 0.8594
+
+  [SignGuard] Round 41 — 5/10 clients trusted
+  [SignGuard] Trusted clients: [0, 4, 7, 8, 9]
+  [SignGuard] Round 41 — Acc: 0.6885 | Loss: 0.9158
+
+  [SignGuard] Round 42 — 7/10 clients trusted
+  [SignGuard] Trusted clients: [0, 1, 3, 4, 5, 6, 7]
+  [SignGuard] Round 42 — Acc: 0.7053 | Loss: 0.8779
+
+  [SignGuard] Round 43 — 6/10 clients trusted
+  [SignGuard] Trusted clients: [3, 4, 5, 6, 7, 8]
+  [SignGuard] Round 43 — Acc: 0.7113 | Loss: 0.8575
+
+  [SignGuard] Round 44 — 8/10 clients trusted
+  [SignGuard] Trusted clients: [0, 1, 2, 3, 6, 7, 8, 9]
+  [SignGuard] Round 44 — Acc: 0.7014 | Loss: 0.8962
+
+  [SignGuard] Round 45 — 6/10 clients trusted
+  [SignGuard] Trusted clients: [0, 3, 4, 5, 6, 9]
+  [SignGuard] Round 45 — Acc: 0.7047 | Loss: 0.8924
+
+  [SignGuard] Round 46 — 7/10 clients trusted
+  [SignGuard] Trusted clients: [1, 3, 4, 5, 6, 7, 9]
+  [SignGuard] Round 46 — Acc: 0.7079 | Loss: 0.9077
+
+  [SignGuard] Round 47 — 6/10 clients trusted
+  [SignGuard] Trusted clients: [1, 2, 3, 4, 8, 9]
+  [SignGuard] Round 47 — Acc: 0.7076 | Loss: 0.9122
+
+  [SignGuard] Round 48 — 6/10 clients trusted
+  [SignGuard] Trusted clients: [0, 1, 3, 4, 5, 9]
+  [SignGuard] Round 48 — Acc: 0.7072 | Loss: 0.8804
+
+  [SignGuard] Round 49 — 7/10 clients trusted
+  [SignGuard] Trusted clients: [1, 3, 4, 5, 6, 7, 9]
+  [SignGuard] Round 49 — Acc: 0.7156 | Loss: 0.8939
+
+  [SignGuard] Round 50 — 4/10 clients trusted
+  [SignGuard] Trusted clients: [0, 4, 5, 6]
+  [SignGuard] Round 50 — Acc: 0.6625 | Loss: 1.0946
+
+============================================================
+ Test 2  - Attack | Strategy: FedAvg | Mode: attack
+============================================================
+  [Client 0]: 7505 samples
+  [Client 1]: 3766 samples
+  [Client 1] Top-2 classes for GAN: ['cat', 'frog'] [3, 6]
+  [Client 2]: 2587 samples
+  [Client 2] Top-2 classes for GAN: ['cat', 'frog'] [3, 6]
+  [Client 3]: 5760 samples
+  [Client 4]: 5691 samples
+  [Client 5]: 7494 samples
+  [Client 5] Top-2 classes for GAN: ['cat', 'frog'] [3, 6]
+  [Client 6]: 2628 samples
+  [Client 7]: 4624 samples
+  [Client 8]: 5996 samples
+  [Client 9]: 3949 samples
+  [FedAvg] Round 1 — Acc: 0.2222 | Loss: 2.1417
+  [FedAvg] Round 2 — Acc: 0.3623 | Loss: 1.7792
+  [FedAvg] Round 3 — Acc: 0.4051 | Loss: 1.6452
+  [FedAvg] Round 4 — Acc: 0.4509 | Loss: 1.5103
+  [FedAvg] Round 5 — Acc: 0.4485 | Loss: 1.5077
+  [FedAvg] Round 6 — Acc: 0.4642 | Loss: 1.4668
+  [FedAvg] Round 7 — Acc: 0.4713 | Loss: 1.4132
+  [FedAvg] Round 8 — Acc: 0.4835 | Loss: 1.3912
+  [FedAvg] Round 9 — Acc: 0.4893 | Loss: 1.3928
+  [FedAvg] Round 10 — Acc: 0.5271 | Loss: 1.2745
+  [FedAvg] Round 11 — Acc: 0.5323 | Loss: 1.2602
+  [FedAvg] Round 12 — Acc: 0.5486 | Loss: 1.2241
+  [FedAvg] Round 13 — Acc: 0.5651 | Loss: 1.1845
+  [FedAvg] Round 14 — Acc: 0.5561 | Loss: 1.2074
+  [FedAvg] Round 15 — Acc: 0.5723 | Loss: 1.1633
+  [FedAvg] Round 16 — Acc: 0.5936 | Loss: 1.1085
+  [FedAvg] Round 17 — Acc: 0.5954 | Loss: 1.1083
+  [FedAvg] Round 18 — Acc: 0.6071 | Loss: 1.0763
+  [FedAvg] Round 19 — Acc: 0.6071 | Loss: 1.0788
+  [FedAvg] Round 20 — Acc: 0.6168 | Loss: 1.0557
+  [FedAvg] Round 21 — Acc: 0.6209 | Loss: 1.0397
+  [FedAvg] Round 22 — Acc: 0.6164 | Loss: 1.0510
+  [FedAvg] Round 23 — Acc: 0.6222 | Loss: 1.0425
+  [FedAvg] Round 24 — Acc: 0.6251 | Loss: 1.0428
+  [FedAvg] Round 25 — Acc: 0.6399 | Loss: 0.9999
+  [FedAvg] Round 26 — Acc: 0.6323 | Loss: 1.0214
+  [FedAvg] Round 27 — Acc: 0.6467 | Loss: 0.9911
+  [FedAvg] Round 28 — Acc: 0.6467 | Loss: 0.9927
+  [FedAvg] Round 29 — Acc: 0.6469 | Loss: 0.9865
+  [FedAvg] Round 30 — Acc: 0.6649 | Loss: 0.9587
+  [FedAvg] Round 31 — Acc: 0.6528 | Loss: 0.9902
+  [FedAvg] Round 32 — Acc: 0.6642 | Loss: 0.9661
+  [FedAvg] Round 33 — Acc: 0.6593 | Loss: 0.9903
+  [FedAvg] Round 34 — Acc: 0.6630 | Loss: 0.9995
+  [FedAvg] Round 35 — Acc: 0.6635 | Loss: 0.9989
+  [FedAvg] Round 36 — Acc: 0.6678 | Loss: 0.9790
+  [FedAvg] Round 37 — Acc: 0.6684 | Loss: 0.9886
+  [FedAvg] Round 38 — Acc: 0.6734 | Loss: 0.9691
+  [FedAvg] Round 39 — Acc: 0.6599 | Loss: 1.0287
+  [FedAvg] Round 40 — Acc: 0.6653 | Loss: 0.9928
+  [FedAvg] Round 41 — Acc: 0.6571 | Loss: 1.0449
+  [FedAvg] Round 42 — Acc: 0.6710 | Loss: 0.9958
+  [FedAvg] Round 43 — Acc: 0.6723 | Loss: 1.0353
+  [FedAvg] Round 44 — Acc: 0.6726 | Loss: 1.0371
+  [FedAvg] Round 45 — Acc: 0.6706 | Loss: 1.0252
+  [FedAvg] Round 46 — Acc: 0.6684 | Loss: 1.0484
+  [FedAvg] Round 47 — Acc: 0.6821 | Loss: 1.0173
+  [FedAvg] Round 48 — Acc: 0.6703 | Loss: 1.0638
+  [FedAvg] Round 49 — Acc: 0.6882 | Loss: 1.0164
+  [FedAvg] Round 50 — Acc: 0.6811 | Loss: 1.0450
+
+============================================================
+ Test 2  - Attack | Strategy: SignGuard | Mode: attack
+============================================================
+  [Client 0]: 7505 samples
+  [Client 1]: 3766 samples
+  [Client 1] Top-2 classes for GAN: ['cat', 'frog'] [3, 6]
+  [Client 2]: 2587 samples
+  [Client 2] Top-2 classes for GAN: ['cat', 'frog'] [3, 6]
+  [Client 3]: 5760 samples
+  [Client 4]: 5691 samples
+  [Client 5]: 7494 samples
+  [Client 5] Top-2 classes for GAN: ['cat', 'frog'] [3, 6]
+  [Client 6]: 2628 samples
+  [Client 7]: 4624 samples
+  [Client 8]: 5996 samples
+  [Client 9]: 3949 samples
+
+  [SignGuard] Round 1 — 7/10 clients trusted
+  [SignGuard] Trusted clients: [0, 1, 2, 3, 5, 7, 8]
+  [SignGuard] Round 1 — Acc: 0.1561 | Loss: 2.2187
+
+  [SignGuard] Round 2 — 5/10 clients trusted
+  [SignGuard] Trusted clients: [1, 3, 4, 6, 9]
+  [SignGuard] Round 2 — Acc: 0.2576 | Loss: 1.9679
+
+  [SignGuard] Round 3 — 7/10 clients trusted
+  [SignGuard] Trusted clients: [1, 2, 3, 4, 5, 7, 9]
+  [SignGuard] Round 3 — Acc: 0.2902 | Loss: 1.8893
+
+  [SignGuard] Round 4 — 5/10 clients trusted
+  [SignGuard] Trusted clients: [0, 3, 6, 8, 9]
+  [SignGuard] Round 4 — Acc: 0.3602 | Loss: 1.6513
+
+  [SignGuard] Round 5 — 7/10 clients trusted
+  [SignGuard] Trusted clients: [0, 3, 4, 6, 7, 8, 9]
+  [SignGuard] Round 5 — Acc: 0.4483 | Loss: 1.4539
+
+  [SignGuard] Round 6 — 6/10 clients trusted
+  [SignGuard] Trusted clients: [3, 4, 5, 6, 7, 8]
+  [SignGuard] Round 6 — Acc: 0.3839 | Loss: 1.6075
+
+  [SignGuard] Round 7 — 7/10 clients trusted
+  [SignGuard] Trusted clients: [1, 3, 4, 5, 7, 8, 9]
+  [SignGuard] Round 7 — Acc: 0.4127 | Loss: 1.5803
+
+  [SignGuard] Round 8 — 7/10 clients trusted
+  [SignGuard] Trusted clients: [0, 3, 4, 6, 7, 8, 9]
+  [SignGuard] Round 8 — Acc: 0.4928 | Loss: 1.3511
+
+  [SignGuard] Round 9 — 8/10 clients trusted
+  [SignGuard] Trusted clients: [0, 1, 2, 3, 4, 6, 8, 9]
+  [SignGuard] Round 9 — Acc: 0.4613 | Loss: 1.4568
+
+  [SignGuard] Round 10 — 5/10 clients trusted
+  [SignGuard] Trusted clients: [1, 2, 4, 5, 9]
+  [SignGuard] Round 10 — Acc: 0.3418 | Loss: 1.9234
+
+  [SignGuard] Round 11 — 8/10 clients trusted
+  [SignGuard] Trusted clients: [1, 2, 3, 4, 5, 7, 8, 9]
+  [SignGuard] Round 11 — Acc: 0.4394 | Loss: 1.5380
+
+  [SignGuard] Round 12 — 6/10 clients trusted
+  [SignGuard] Trusted clients: [0, 1, 2, 4, 5, 8]
+  [SignGuard] Round 12 — Acc: 0.4685 | Loss: 1.4304
+
+  [SignGuard] Round 13 — 5/10 clients trusted
+  [SignGuard] Trusted clients: [0, 3, 7, 8, 9]
+  [SignGuard] Round 13 — Acc: 0.5172 | Loss: 1.2699
+
+  [SignGuard] Round 14 — 5/10 clients trusted
+  [SignGuard] Trusted clients: [0, 1, 4, 7, 9]
+  [SignGuard] Round 14 — Acc: 0.5410 | Loss: 1.2411
+
+  [SignGuard] Round 15 — 6/10 clients trusted
+  [SignGuard] Trusted clients: [0, 1, 2, 3, 4, 8]
+  [SignGuard] Round 15 — Acc: 0.5278 | Loss: 1.2967
+
+  [SignGuard] Round 16 — 7/10 clients trusted
+  [SignGuard] Trusted clients: [2, 3, 4, 6, 7, 8, 9]
+  [SignGuard] Round 16 — Acc: 0.5460 | Loss: 1.2349
+
+  [SignGuard] Round 17 — 5/10 clients trusted
+  [SignGuard] Trusted clients: [1, 3, 5, 7, 8]
+  [SignGuard] Round 17 — Acc: 0.4744 | Loss: 1.4828
+
+  [SignGuard] Round 18 — 8/10 clients trusted
+  [SignGuard] Trusted clients: [1, 2, 3, 5, 6, 7, 8, 9]
+  [SignGuard] Round 18 — Acc: 0.4944 | Loss: 1.3989
+
+  [SignGuard] Round 19 — 6/10 clients trusted
+  [SignGuard] Trusted clients: [0, 3, 4, 7, 8, 9]
+  [SignGuard] Round 19 — Acc: 0.6067 | Loss: 1.0719
+
+  [SignGuard] Round 20 — 7/10 clients trusted
+  [SignGuard] Trusted clients: [0, 1, 3, 4, 7, 8, 9]
+  [SignGuard] Round 20 — Acc: 0.6025 | Loss: 1.0857
+
+  [SignGuard] Round 21 — 7/10 clients trusted
+  [SignGuard] Trusted clients: [0, 1, 2, 3, 5, 6, 7]
+  [SignGuard] Round 21 — Acc: 0.5327 | Loss: 1.3239
+
+  [SignGuard] Round 22 — 7/10 clients trusted
+  [SignGuard] Trusted clients: [0, 3, 4, 5, 6, 7, 8]
+  [SignGuard] Round 22 — Acc: 0.6231 | Loss: 1.0361
+
+  [SignGuard] Round 23 — 7/10 clients trusted
+  [SignGuard] Trusted clients: [0, 3, 4, 6, 7, 8, 9]
+  [SignGuard] Round 23 — Acc: 0.6303 | Loss: 1.0230
+
+  [SignGuard] Round 24 — 5/10 clients trusted
+  [SignGuard] Trusted clients: [0, 1, 4, 8, 9]
+  [SignGuard] Round 24 — Acc: 0.6221 | Loss: 1.0444
+
+  [SignGuard] Round 25 — 6/10 clients trusted
+  [SignGuard] Trusted clients: [0, 1, 2, 3, 7, 8]
+  [SignGuard] Round 25 — Acc: 0.5743 | Loss: 1.1964
+
+  [SignGuard] Round 26 — 5/10 clients trusted
+  [SignGuard] Trusted clients: [0, 1, 2, 6, 9]
+  [SignGuard] Round 26 — Acc: 0.5803 | Loss: 1.1632
+
+  [SignGuard] Round 27 — 5/10 clients trusted
+  [SignGuard] Trusted clients: [0, 4, 7, 8, 9]
+  [SignGuard] Round 27 — Acc: 0.6374 | Loss: 1.0147
+
+  [SignGuard] Round 28 — 7/10 clients trusted
+  [SignGuard] Trusted clients: [0, 2, 4, 6, 7, 8, 9]
+  [SignGuard] Round 28 — Acc: 0.6394 | Loss: 1.0236
+
+  [SignGuard] Round 29 — 5/10 clients trusted
+  [SignGuard] Trusted clients: [0, 3, 4, 7, 8]
+  [SignGuard] Round 29 — Acc: 0.6505 | Loss: 0.9808
+
+  [SignGuard] Round 30 — 8/10 clients trusted
+  [SignGuard] Trusted clients: [0, 1, 2, 3, 4, 6, 8, 9]
+  [SignGuard] Round 30 — Acc: 0.6069 | Loss: 1.0913
+
+  [SignGuard] Round 31 — 7/10 clients trusted
+  [SignGuard] Trusted clients: [0, 3, 4, 6, 7, 8, 9]
+  [SignGuard] Round 31 — Acc: 0.6691 | Loss: 0.9395
+
+  [SignGuard] Round 32 — 7/10 clients trusted
+  [SignGuard] Trusted clients: [0, 3, 4, 6, 7, 8, 9]
+  [SignGuard] Round 32 — Acc: 0.6738 | Loss: 0.9450
+
+  [SignGuard] Round 33 — 5/10 clients trusted
+  [SignGuard] Trusted clients: [0, 2, 5, 8, 9]
+  [SignGuard] Round 33 — Acc: 0.5978 | Loss: 1.1455
+
+  [SignGuard] Round 34 — 7/10 clients trusted
+  [SignGuard] Trusted clients: [0, 3, 4, 6, 7, 8, 9]
+  [SignGuard] Round 34 — Acc: 0.6734 | Loss: 0.9453
+
+  [SignGuard] Round 35 — 8/10 clients trusted
+  [SignGuard] Trusted clients: [0, 1, 3, 4, 6, 7, 8, 9]
+  [SignGuard] Round 35 — Acc: 0.6671 | Loss: 0.9588
+
+  [SignGuard] Round 36 — 7/10 clients trusted
+  [SignGuard] Trusted clients: [0, 3, 4, 6, 7, 8, 9]
+  [SignGuard] Round 36 — Acc: 0.6841 | Loss: 0.9360
+
+  [SignGuard] Round 37 — 6/10 clients trusted
+  [SignGuard] Trusted clients: [1, 2, 4, 5, 8, 9]
+  [SignGuard] Round 37 — Acc: 0.5513 | Loss: 1.3262
+
+  [SignGuard] Round 38 — 6/10 clients trusted
+  [SignGuard] Trusted clients: [0, 3, 4, 6, 8, 9]
+  [SignGuard] Round 38 — Acc: 0.6874 | Loss: 0.9443
+
+  [SignGuard] Round 39 — 7/10 clients trusted
+  [SignGuard] Trusted clients: [1, 3, 4, 6, 7, 8, 9]
+  [SignGuard] Round 39 — Acc: 0.6509 | Loss: 1.0570
+
+  [SignGuard] Round 40 — 5/10 clients trusted
+  [SignGuard] Trusted clients: [3, 4, 6, 7, 8]
+  [SignGuard] Round 40 — Acc: 0.6750 | Loss: 0.9954
+
+  [SignGuard] Round 41 — 7/10 clients trusted
+  [SignGuard] Trusted clients: [0, 3, 4, 6, 7, 8, 9]
+  [SignGuard] Round 41 — Acc: 0.6864 | Loss: 0.9505
+
+  [SignGuard] Round 42 — 7/10 clients trusted
+  [SignGuard] Trusted clients: [0, 3, 4, 6, 7, 8, 9]
+  [SignGuard] Round 42 — Acc: 0.6914 | Loss: 0.9669
+
+  [SignGuard] Round 43 — 6/10 clients trusted
+  [SignGuard] Trusted clients: [0, 2, 3, 4, 6, 9]
+  [SignGuard] Round 43 — Acc: 0.6750 | Loss: 1.0047
+
+  [SignGuard] Round 44 — 5/10 clients trusted
+  [SignGuard] Trusted clients: [0, 4, 6, 7, 9]
+  [SignGuard] Round 44 — Acc: 0.6849 | Loss: 1.0147
+
+  [SignGuard] Round 45 — 8/10 clients trusted
+  [SignGuard] Trusted clients: [0, 1, 2, 3, 4, 6, 8, 9]
+  [SignGuard] Round 45 — Acc: 0.6505 | Loss: 1.0843
+
+  [SignGuard] Round 46 — 8/10 clients trusted
+  [SignGuard] Trusted clients: [1, 2, 4, 5, 6, 7, 8, 9]
+  [SignGuard] Round 46 — Acc: 0.6205 | Loss: 1.2049
+
+  [SignGuard] Round 47 — 4/10 clients trusted
+  [SignGuard] Trusted clients: [3, 7, 8, 9]
+  [SignGuard] Round 47 — Acc: 0.6677 | Loss: 1.1221
+
+  [SignGuard] Round 48 — 8/10 clients trusted
+  [SignGuard] Trusted clients: [0, 1, 2, 4, 6, 7, 8, 9]
+  [SignGuard] Round 48 — Acc: 0.6588 | Loss: 1.0787
+
+  [SignGuard] Round 49 — 6/10 clients trusted
+  [SignGuard] Trusted clients: [3, 4, 6, 7, 8, 9]
+  [SignGuard] Round 49 — Acc: 0.6843 | Loss: 1.0638
+
+  [SignGuard] Round 50 — 8/10 clients trusted
+  [SignGuard] Trusted clients: [0, 1, 2, 3, 4, 6, 7, 8]
+  [SignGuard] Round 50 — Acc: 0.6728 | Loss: 1.0495
+
+All simulations complete!
