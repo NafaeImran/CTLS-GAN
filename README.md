@@ -45,7 +45,7 @@ CTLS-GAN/
 │   ├── fedCC-class2.txt                   # FedCC logs, 2-class attack
 │   ├── SG-class1-logs.txt                 # SignGuard logs, 1-class attack
 │   ├── SG-class2-logs.txt                 # SignGuard logs, 2-class attack
-│   └── StealthAnalysis.ipynb              # L2 divergence and cosine similarity analysis
+│   └── StealthAnalysis.ipynb              # Bypass rate and stealth analysis from logs
 └── tests/
     ├── dl-proj-betatests.ipynb            # Ablation study across beta values
     ├── dl-proj-fedcc-beta0.12-seed67-class1.ipynb
@@ -91,7 +91,8 @@ jupyter notebook tests/dl-proj-fedcc-beta0.12-seed67-class1.ipynb
 jupyter notebook tests/dl-proj-betatests.ipynb
 ```
 
-5. To inspect L2 divergence and cosine similarity (stealthiness analysis):
+5. To inspect bypass rate (stealthiness analysis):
+   Copy the logs into a file in the logs folder, and then run this notebook on the newly created log file.
 ```bash
 jupyter notebook logs/StealthAnalysis.ipynb
 ```
@@ -101,7 +102,7 @@ jupyter notebook logs/StealthAnalysis.ipynb
 | Parameter | Value |
 |-----------|-------|
 | Total Clients (N) | 10 |
-| Compromised Clients (M) | 3 (IDs: 1, 5, 2) |
+| Compromised Clients (M) | 3 IDs: [1, 5, 2] |
 | Communication Rounds | 50 |
 | Local Training Epochs | 2 |
 | Batch Size | 256 |
@@ -110,7 +111,7 @@ jupyter notebook logs/StealthAnalysis.ipynb
 | Random Seed | 67 |
 | Dirichlet Parameter | 0.5 |
 | Attack Growth Rate (beta) | 0.12 |
-| Targeted Classes (ntop) | 1, 2 |
+| ntop | [1, 2] |
 
 ## Key Innovations
 
