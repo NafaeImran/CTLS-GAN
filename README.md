@@ -177,7 +177,13 @@ All experiments use CIFAR-10 (50K training images, 10K test images) distributed 
 | SignGuard | 70.38% | 65.08% | 66.25% | 67.28% |
 
 #### Confusion Matrices to show effects of attack:
-  ##### 1-Class:
+
+
+
+
+  #### 1-Class:
+
+  
   - FedAvg:
 
     <img width="2490" height="495" alt="image" src="https://github.com/user-attachments/assets/b523cdc0-3de1-4a9c-881c-a1b0176cc9b3" />
@@ -193,7 +199,7 @@ All experiments use CIFAR-10 (50K training images, 10K test images) distributed 
     <img width="2490" height="495" alt="image" src="https://github.com/user-attachments/assets/e2d1c84a-816a-4d2f-94cb-d9e6e67f1758" />
 
 
-  - MOON
+  - MOON:
 
     <img width="2490" height="495" alt="image" src="https://github.com/user-attachments/assets/5ff2f659-b834-4ec2-85d3-bfe4115c272a" />
 
@@ -201,7 +207,7 @@ All experiments use CIFAR-10 (50K training images, 10K test images) distributed 
 
 
     
-  - SignGuard
+  - SignGuard:
 
     <img width="2490" height="495" alt="image" src="https://github.com/user-attachments/assets/3fa602e5-c9fa-44da-865d-24476888ce00" />
 
@@ -210,9 +216,16 @@ All experiments use CIFAR-10 (50K training images, 10K test images) distributed 
 
 
 
+
+
+
+
+
     
-  ##### 2-Class:
-  - FedAvg
+  #### 2-Class:
+
+  
+  - FedAvg:
 
     
     <img width="2490" height="495" alt="image" src="https://github.com/user-attachments/assets/dbc9fe59-9583-4e6b-a419-0b06e15c12db" />
@@ -229,14 +242,14 @@ All experiments use CIFAR-10 (50K training images, 10K test images) distributed 
     <img width="2490" height="495" alt="image" src="https://github.com/user-attachments/assets/d48f9a65-e123-49e9-9c32-770f0ce9b3b8" />
 
 
-  - MOON
+  - MOON:
 
     <img width="2490" height="495" alt="image" src="https://github.com/user-attachments/assets/06093e80-859c-4124-9d53-dd7a2b5e5636" />
 
     <img width="2490" height="495" alt="image" src="https://github.com/user-attachments/assets/3d3f5d34-fe67-4433-9f11-4086bda98951" />
 
 
-  - SignGuard
+  - SignGuard:
 
     <img width="2490" height="495" alt="image" src="https://github.com/user-attachments/assets/46ea0596-7e0c-4004-838f-5cdd9616e4fa" />
 
