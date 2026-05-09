@@ -2,7 +2,10 @@
 
 CTLS-GAN is a novel federated learning attack framework that uses Generative Adversarial Networks to produce high quality synthetic data for specific classes in order to artificially induce a label skew and degrade global model performance. The attack operates in Non-IID federated environments, where it exploits natural data heterogeneity to remain indistinguishable from a benign skewed client.
 
-![CTLS-GAN Setup](Diagrams/CTLS_GAN.png)
+<img width="5172" height="1460" alt="CTLS-Setup" src="https://github.com/user-attachments/assets/7d95ed3d-1d1e-4caa-925c-88781007b227" />
+
+
+
 
 ## Table of Contents
 
