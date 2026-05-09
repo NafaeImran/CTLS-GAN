@@ -157,7 +157,7 @@ To prevent detection via anomalous training time, the total data volume (synthet
 
 ### Targeted Class Count (N-Top)
 
-The ntop parameter controls how many of the highest-data classes are targeted. When ntop = 1, the attack concentrates on a single class and produces the strongest per-class bias. When ntop >= 2, the attack randomly cycles among the top classes each round, distributing the skew more naturally, which reduces per-class anomaly but also dilutes misclassification pressure on any single target.
+The ntop parameter controls how many of the highest-data classes are targeted. When ntop = 1, the attack concentrates on a single class(the one with the highest amount of data) and produces the strongest per-class bias. When ntop >= 2, the attack randomly cycles among the ntop chosen classes each round, distributing the skew more naturally, which reduces per-class anomaly but also dilutes misclassification pressure on any single target.
 
 ## Experimental Results
 
