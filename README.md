@@ -161,9 +161,11 @@ The ntop parameter controls how many of the highest-data classes are targeted. W
 
 ## Experimental Results
 
-All experiments use CIFAR-10 (50K training images, 10K test images) distributed across 10 clients via Dirichlet distribution (alpha = 0.5). The default attack uses beta = 0.12.
+All experiments use CIFAR-10 (50K training images, 10K test images) distributed across 10 clients via Dirichlet distribution (alpha = 0.5). The default attack uses beta = 0.12.With seed=67 Class-1 Attacks targeted the Cat class and Class-2 Attacks targets Cat and Frog class.
 
 ### Robustness Evaluation
+
+#### Setup Representation:
 <img width="4369" height="8192" alt="ExperimentSetup" src="https://github.com/user-attachments/assets/f28b3b7a-956c-43be-aeba-09eeda800c06" />
 
 
@@ -173,6 +175,72 @@ All experiments use CIFAR-10 (50K training images, 10K test images) distributed 
 | FedCC | 70.52% | 65.68% | 72.15% | 67.19% |
 | MOON | 64.44% | 53.53% | 63.43% | 59.63% |
 | SignGuard | 70.38% | 65.08% | 66.25% | 67.28% |
+
+#### Confusion Matrices to show effects of attack:
+  ##### 1-Class:
+  - FedAvg:
+
+    <img width="2490" height="495" alt="image" src="https://github.com/user-attachments/assets/b523cdc0-3de1-4a9c-881c-a1b0176cc9b3" />
+
+    <img width="2490" height="495" alt="image" src="https://github.com/user-attachments/assets/cc4d759f-9931-43af-858a-30a611f85bc3" />
+
+  - FedCC:
+
+    
+    <img width="2490" height="495" alt="image" src="https://github.com/user-attachments/assets/f657b233-3715-4630-b9a2-1d1d83d9dd31" />
+
+    
+    <img width="2490" height="495" alt="image" src="https://github.com/user-attachments/assets/e2d1c84a-816a-4d2f-94cb-d9e6e67f1758" />
+
+
+  - MOON
+
+    <img width="2490" height="495" alt="image" src="https://github.com/user-attachments/assets/5ff2f659-b834-4ec2-85d3-bfe4115c272a" />
+
+    <img width="2490" height="495" alt="image" src="https://github.com/user-attachments/assets/26e3cc75-f132-408d-a033-f07afa9fa88b" />
+
+
+    
+  - SignGuard
+
+    <img width="2490" height="495" alt="image" src="https://github.com/user-attachments/assets/3fa602e5-c9fa-44da-865d-24476888ce00" />
+
+    <img width="2490" height="495" alt="image" src="https://github.com/user-attachments/assets/d3a60053-7fc9-4929-89d1-03b6d477f928" />
+
+
+
+
+    
+  ##### 2-Class:
+  - FedAvg
+
+    
+    <img width="2490" height="495" alt="image" src="https://github.com/user-attachments/assets/dbc9fe59-9583-4e6b-a419-0b06e15c12db" />
+
+
+    <img width="2490" height="495" alt="image" src="https://github.com/user-attachments/assets/d6bfcfe5-e779-4215-9926-ffcc23a79f4f" />
+
+
+  - FedCC:
+
+    <img width="2490" height="495" alt="image" src="https://github.com/user-attachments/assets/02b59f5d-e56b-49da-8329-16b1fbe92fd0" />
+  
+  
+    <img width="2490" height="495" alt="image" src="https://github.com/user-attachments/assets/d48f9a65-e123-49e9-9c32-770f0ce9b3b8" />
+
+
+  - MOON
+
+    <img width="2490" height="495" alt="image" src="https://github.com/user-attachments/assets/06093e80-859c-4124-9d53-dd7a2b5e5636" />
+
+    <img width="2490" height="495" alt="image" src="https://github.com/user-attachments/assets/3d3f5d34-fe67-4433-9f11-4086bda98951" />
+
+
+  - SignGuard
+
+    <img width="2490" height="495" alt="image" src="https://github.com/user-attachments/assets/46ea0596-7e0c-4004-838f-5cdd9616e4fa" />
+
+    <img width="2490" height="495" alt="image" src="https://github.com/user-attachments/assets/a3dcbc07-a8c7-4d24-8b22-c080dfc53b36" />
 
 Key observations:
 
