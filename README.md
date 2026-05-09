@@ -75,7 +75,7 @@ CTLS-GAN/
 
 1. Clone this repository:
 ```bash
-git clone <repo-url>
+git clone https://github.com/NafaeImran/CTLS-GAN.git
 cd CTLS-GAN
 ```
 
