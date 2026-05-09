@@ -120,7 +120,7 @@ jupyter notebook logs/StealthAnalysis.ipynb
 
 ### Attack Formulation
 
-CTLS-GAN uses trains a GANs model using the local data found on taken over client's to generate high quality synthetic images for targeted classes. For the purposes of this paper we used NVIDIA's StyleGAN2-ADA pretrained on CIFAR-10. Malicious clients train their local models on a mixture of real and synthetic data, where the synthetic data is heavily skewed toward the targeted class. The resulting gradients closely resemble those of a legitimately skewed benign client in a Non-IID environment, making the attack inherently stealthy.
+CTLS-GAN trains a GANs model using the local data found on a taken over client's to generate high quality synthetic images for targeted classes. For the purposes of this paper we used NVIDIA's StyleGAN2-ADA pretrained on CIFAR-10. Malicious clients train their local models on a mixture of real and synthetic data, where the synthetic data is heavily skewed toward the targeted class. The resulting gradients closely resemble those of a legitimately skewed benign client in a Non-IID environment, making the attack inherently stealthy.
 
 The attack is formulated over one global model and n = 10 clients, of which m = 3 are adversaries. Both benign and malicious clients use the same CNN architecture (CifarCNN):
 
