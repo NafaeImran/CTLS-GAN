@@ -163,6 +163,8 @@ The ntop parameter controls how many of the highest-data classes are targeted. W
 All experiments use CIFAR-10 (50K training images, 10K test images) distributed across 10 clients via Dirichlet distribution (alpha = 0.5). The default attack uses beta = 0.12.
 
 ### Robustness Evaluation
+<img width="4369" height="8192" alt="ExperimentSetup" src="https://github.com/user-attachments/assets/f28b3b7a-956c-43be-aeba-09eeda800c06" />
+
 
 | Strategy | Non-IID (1-Class) | Attack (1-Class) | Non-IID (2-Class) | Attack (2-Class) |
 |----------|------------------|-----------------|------------------|-----------------|
